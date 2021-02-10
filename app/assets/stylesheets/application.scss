@@ -1,2 +1,12 @@
+
+
 /* application.scss */
 @import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+// External libraries
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+// Your CSS partials
+@import "components/index";
+
