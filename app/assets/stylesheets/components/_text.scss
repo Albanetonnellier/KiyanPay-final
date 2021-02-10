@@ -1,0 +1,77 @@
+.text-wrapper {
+	padding-right: 60px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+
+.text-content {
+	padding-top: 15px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+}
+
+.text-wrapper h1 , h2 {
+	font-weight: bold;
+	padding-top : 40px;
+	padding-bottom : 40px;
+	padding-left: 15px;
+}
+
+
+
+.text-wrapper p {
+	line-height: 200%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-style: "Gilroy";
+}
+
+.text-wrapper a {
+	color: #8B959E;
+}
+
+.text-wrapper a:hover {
+	color: #191C1F;
+}
+
+.text-wrapper li {
+	line-height: 200%;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+.text-wrapper h5 {
+	font-weight: bold;
+}
+
+.text-wrapper h4 {
+	font-style: italic;
+	font-weight: 600;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.text-wrapper h3 {
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 200%;
+}
+
+
+table th, td {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	border: 1px solid #F2F2F2;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table th {
+	background-color: #F2F2F2;
+}
