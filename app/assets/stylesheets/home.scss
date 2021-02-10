@@ -33,13 +33,21 @@ ul {
 
 // Scroll animation
 
+.container-3 h1 h2 h3 p {
 
+}
 
 .container-end {
   background-color: #f3fbf9;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+  h1 {
+    padding-top: 150px;
+  }
+  .padd {
+    padding-top: 80px;
+  }
 }
 
 
