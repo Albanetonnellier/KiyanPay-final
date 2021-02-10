@@ -22,9 +22,9 @@
   margin: 0 3em 3em 0;
   border-radius: 50%;
   padding: .25em;
-  width: 60px;
-  height: 60px;
-  background-color: #F8F8F8;
+  width: 50px;
+  height: 50px;
+  background-color: #E8E8E8;
   
   &.show {
     visibility: visible;
@@ -37,16 +37,16 @@
   }
 
   svg {
-    fill: #000;
+    fill: #104138;
     width: 24px;
     height: 12px;
   }
 
   &:hover {
-    background-color: #E8E8E8;
+    background-color: #F8F8F8;
 
     svg {
-      fill: #000000;
+      fill: #104138;
     }
   }
 }
