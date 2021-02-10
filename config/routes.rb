@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get 'conditions' , to: 'pages#conditions'
   get 'privacy' , to: 'pages#privacy'
   get 'cookies', to: 'pages#cookies'
+  get 'contact', to: 'pages#contact'
 end
