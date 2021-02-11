@@ -34,7 +34,7 @@ ul {
 // Scroll animation
 
 .container-3 h1 h2 h3 p {
-
+  text-align: center;
 }
 
 .container-end {
@@ -90,6 +90,9 @@ img {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
+  h2 {
+    font-size: 6rem;
+  }
 }
 
 .section-a {
@@ -120,6 +123,7 @@ img {
   align-items: center;
   justify-content: center;
   padding-bottom: 15px;
+  text-align: center;
 
 }
 
