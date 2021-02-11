@@ -40,6 +40,7 @@
     fill: #104138;
     width: 24px;
     height: 12px;
+    border-radius: 10px;
   }
 
   &:hover {
@@ -47,6 +48,7 @@
 
     svg {
       fill: #104138;
+      border-radius: 5px;
     }
   }
 }
