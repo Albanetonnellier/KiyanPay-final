@@ -93,6 +93,7 @@ img {
   h2 {
     font-size: 6rem;
   }
+
 }
 
 .section-a {
@@ -104,7 +105,8 @@ img {
 }
 
 .section-a a:hover {
-  color: #8B959E;
+  color: white;
+  font-weight: bold;
 }
 
 .section-a .container {
@@ -213,7 +215,7 @@ img {
 
 .section-b-inner p {
   margin-top: 1rem;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .wrapper {
