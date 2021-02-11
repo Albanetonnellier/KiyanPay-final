@@ -134,11 +134,14 @@
         &:before {
           left: inherit;
           right: -10px;
-          transform: skew(3deg)
+          transform: skew(3deg);
         }
       }
       .details {
         padding-left: 40px;
+      }
+      .photo {
+        position: right !important;
       }
     }
   }
