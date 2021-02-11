@@ -16,6 +16,11 @@
     z-index: 0;
     height: 200px;
   }
+  .meta-right {
+    height: 200px;
+    position: absolute;
+    z-index: 0;
+  }
   .photo {
     position: absolute;
     top: 0;
@@ -25,6 +30,8 @@
     background-size: cover;
     background-position: center;
   }
+
+
   .details,
   .details ul {
     margin: auto;
