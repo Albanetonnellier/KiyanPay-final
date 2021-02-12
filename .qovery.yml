@@ -3,6 +3,7 @@ application:
   name: "kiyanpay-final"
   project: "Landing"
   organization: "KiyanPay"
+  port: 3000
 routers:
 - name: "main-kiyanpay-final"
   routes:
