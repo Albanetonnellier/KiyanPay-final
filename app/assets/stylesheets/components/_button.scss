@@ -52,17 +52,57 @@
 }
 
 
-.btn {
-  display: inline-block;
-  background: #333;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  cursor: pointer;
-  font-size: 1.1rem;
+.lgt-btn {
+  position: relative;
+  background: white; 
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.2em solid white;
+  padding: 0.5em 1em;
   border-radius: 30px;
+  transition: all 0.8s ease;
+  // &::before {
+  //   content: "";
+  //   display: block;
+  //   position: absolute;
+  //   width: 10%;
+  //   background: #FBFBFB;
+  //   height: 0.3em;
+  //   right: 20%;
+  //   top: -0.21em;
+  //   transform: skewX(-45deg);
+  //   -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  //   transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  // }
+  // &::after {
+  //   content: "";
+  //   display: block;
+  //   position: absolute;
+  //   width: 10%;
+  //   background: #FBFBFB;
+  //   height: 0.3em;
+  //   left: 20%;
+  //   bottom: -0.25em;
+  //   transform: skewX(45deg);
+  //   -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+  //   transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  // }
+  &:hover {
+    &::before {
+      right: 80%;
+    }
+    &::after {
+      left: 80%;
+    }
+  }
+}
+.lgt-btn a {
+  color: grey;
+}
+.lgt-btn a:hover {
+  color: grey;
+  font-weight: bold;
 }
 
-.btn:hover {
-  background: #white;
-}
+
