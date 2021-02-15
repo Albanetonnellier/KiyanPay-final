@@ -1,4 +1,4 @@
 meta_product_name: "KiyanPay"
 meta_title: "KiyanPay - Banking For All"
 meta_description: "Open a free bank account in minutes. No hidden fees, no fuss. Just pure, straightforward banking. "
-
+meta_image: "KP_Logo.png" # should exist in `app/assets/images/`

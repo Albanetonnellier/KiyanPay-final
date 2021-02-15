@@ -245,38 +245,38 @@ next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 </script>
 
-  <script>
+<script>
     const next = document.querySelector('.next');
-const prev = document.querySelector('.prev');
-const slides = document.querySelectorAll('.slide');
+    const prev = document.querySelector('.prev');
+    const slides = document.querySelectorAll('.slide');
 
-let index = 0;
-display(index);
-function display (index) {
-  slides.forEach((slide) => {
+    let index = 0;
+    display(index);
+    function display (index) {
+    slides.forEach((slide) => {
     slide.style.display = 'none';
-  });
-  slides[index].style.display = 'flex';
-}
-
-function nextSlide () {
-  index++;
-  if (index > slides.length - 1) {
-    index = 0;
+    });
+    slides[index].style.display = 'flex';
   }
-  display(index);
-}
-function prevSlide () {
-  index--;
-  if (index < 0) {
-    index = slides.length - 1;
-  }
-  display(index);
-}
 
-next.addEventListener('click', nextSlide);
-prev.addEventListener('click', prevSlide);
-  </script>
+  function nextSlide () {
+    index++;
+    if (index > slides.length - 1) {
+      index = 0;
+    }
+    display(index);
+  }
+  function prevSlide () {
+    index--;
+    if (index < 0) {
+      index = slides.length - 1;
+    }
+    display(index);
+  }
+
+  next.addEventListener('click', nextSlide);
+  prev.addEventListener('click', prevSlide);
+</script>
 
   <!-- Very important to make jquery work -->
 
@@ -287,7 +287,7 @@ prev.addEventListener('click', prevSlide);
 
 <!-- Cookies stay at bottom -->
 <div class="cookie-container">
-  <p>
+  <p><br>
     We use cookies in this website to give you the best experience on our
     site and show you relevant ads. To find out more, read our
     <%= link_to"Privacy Policy", privacy_path%>.<br><br>
