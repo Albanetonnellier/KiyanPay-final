@@ -24,7 +24,7 @@
   padding: .25em;
   width: 50px;
   height: 50px;
-  background-color: #E8E8E8;
+
   
   &.show {
     visibility: visible;
@@ -44,7 +44,6 @@
   }
 
   &:hover {
-    background-color: #F8F8F8;
 
     svg {
       fill: #104138;
