@@ -601,3 +601,92 @@ img {
   padding: 5rem 0;
   max-height: 600px;
 }
+
+// section x
+
+.section-x {
+  width: 100%;
+  height: 640px;
+  background-color: #25C3A3;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+
+.section-x .container-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media (max-width: 700px) {
+  .section-x .container-2 {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .section-x .container-2 div:first-child {
+    order: 2;
+  }
+}
+.section-x h2 {
+  color: white;
+  font-size: 6rem;
+}
+.section-x p {
+  color: white;
+  font-size: 2rem;
+}
+
+.section-x-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 5rem 0;
+  max-height: 650px;
+}
+
+.section-x-inner h3 {
+  font-size: 6rem;
+}
+
+.section-x-inner h2 {
+  font-size: 5rem;
+  margin-top: 1rem;
+}
+
+.section-x-inner p {
+  margin-top: 1rem;
+  font-size: 4rem;
+}
+
+.section-x {
+  margin: 2rem 0;
+  padding-top: 60px;
+}
+
+.section-x a:hover {
+  color: white;
+  font-weight: bold;
+
+}
+
+.section-x .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-x h1 {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
