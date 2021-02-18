@@ -1,19 +1,23 @@
 .cardsh {
     padding-top: 100px;
+    z-index: -1;
 }
 
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-gap: 40px;
+    z-index: -1;
 }
 .card{
     background-color: #1c1b29;
     border-radius: 20px;
+    z-index: -1;
 }
 .cardsh .container{
     position: relative;
-    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    z-index: -1;
+    // clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
 }
 .cardsh img{
     width: 100%;
@@ -29,13 +33,16 @@
     left: 0;
     border-radius: 20px 20px 0 0;
     opacity: 0.7;
+    z-index: -1;
 }
 
 
 .cardshb .container{
     position: relative;
-    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+    // clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
     background-color:  #f3fbf9;
+    z-index: -1;
+
 }
 .cardshb img{
     width: 100%;
@@ -46,29 +53,34 @@
     content: "";
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
     opacity: 0.7;
+    z-index: -1;
 }
 
 .cardshb .card {
     background-color: #f3fbf9;
+    z-index: -1;
 }
 
 .details{
     padding: 20px 10px;
+    z-index: -1;
 }
 .details>h3{
     color: #ffffff;
     font-weight: 600;
     font-size: 18px;
     margin: 10px 0 15px 0;
+    z-index: -1;
 }
 .details>p{
     color: #a0a0a0;
     font-size: 15px;
     line-height: 100px;
     font-weight: 400;
+    z-index: -1;
 }

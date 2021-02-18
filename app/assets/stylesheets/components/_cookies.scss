@@ -1,37 +1,56 @@
-.cookie-container {
-  position: fixed;
-  bottom: -100%;
-  left: 0;
-  right: 0;
-  background: #191C1F;
-  color: #f5f6fa;
-  padding: 0 32px;
-  box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
-  transition: 400ms;
+#okCookie{
+  background-color:#191C1F;
+  color:#333333;
+  bottom:0;
+  left:0;
+  width:100%;
+  padding:10px;
+  min-height: 100px;
+  position: sticky;
+  z-index: 1;
+  padding-left: 50px;
 }
 
-.cookie-container.active {
-  bottom: 0;
+#okCookie p {
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
-.cookie-container a {
-  color: #f5f6fa;
-}
-.cookies-container p {
-  color: #f5f6fa;
+#okCookie #okClose, #okCookie #okCprivacy{
+  padding:5px 20px;
+  text-decoration:none;
+  border-radius:35px;
+  color:white;
+
 }
 
-.cookies-container #text {
-  color: #f5f6fa;
+#okCookie #okClose{
+  background-color:#8D9499;
+  box-shadow:inset 0px -1px 1px #63666B;
+
 }
-.cookie-btn {
-  background: #f5f6fa;
-  border: 0;
-  color: #191C1F;
-  padding: 12px 48px;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border-radius: 35px;
-  cursor: pointer;
+
+#okCookie #okClose:hover{background-color:#25C3A3}
+
+#okCookie #okCprivacy{
+
 }
+
+
+.okcBeginAnimate{
+    -webkit-animation: myfirst 2s; 
+    animation: myfirst 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
