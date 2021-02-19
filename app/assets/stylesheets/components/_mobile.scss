@@ -9,6 +9,12 @@
         }
     }
 
+    .section-a {
+        .container {
+            padding-bottom: 20px;
+        }
+    }
+
     .slide-left p {
         padding-left: 40px;
         padding-right: 40px;
@@ -21,6 +27,15 @@
     }
 
     .section-m {
+        padding-top: 70px;
+    }
+
+    .container-2 p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .mid-title h2 {
         padding-top: 70px;
     }
 
@@ -62,6 +77,34 @@
     .right-side {
         padding-top: 120px;
     }
+
+    .section-c {
+        margin: 2rem 0;
+        padding-top: 80px;
+    }
+
+    .container-end {
+        .padd {
+            padding-top: 80px;
+        }
+        .paddd {
+            padding-bottom: 80px;
+        }
+        h1 {
+            padding-top: 150px;
+        }
+    }
+
+    .mid-title h2 {
+        padding-top: 150px;
+    }
+
+    .text-wrapper {
+        padding-right: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
 }
 
         /* Medium Devices, Desktops */
@@ -100,7 +143,30 @@
     .right-side {
         padding-top: 120px;
     }
-
+    .section-c {
+        margin: 2rem 0;
+        padding-top: 80px;
+    }
+    .container-end {
+        .padd {
+            padding-top: 80px;
+        }
+        .paddd {
+            padding-bottom: 80px;
+        }
+        h1 {
+            padding-top: 150px;
+        }
+    }
+    .mid-title h2 {
+        padding-top: 150px;
+    }
+    .text-wrapper {
+        padding-right: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
 }
 
         /* Large Devices, Wide Screens */
@@ -140,5 +206,29 @@
     .right-side {
         padding-top: 120px;
     }
+    .section-c {
+        margin: 2rem 0;
+        padding-top: 80px;
+    }
+    .container-end {
+        .padd {
+            padding-top: 80px;
+        }
+        .paddd {
+            padding-bottom: 80px;
+        }
+        h1 {
+            padding-top: 150px;
+        }
+    }
 
+    .mid-title h2 {
+        padding-top: 150px;
+    }
+    .text-wrapper {
+        padding-right: 60px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
 }
