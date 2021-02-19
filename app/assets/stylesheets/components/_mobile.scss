@@ -10,6 +10,12 @@
     }
 
     .section-a {
+        .container-1 {
+            padding-top: 50px;
+        }
+    }
+
+    .section-a {
         .container {
             padding-bottom: 20px;
         }
@@ -19,6 +25,11 @@
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 30px;
+    }
+
+    .mobilepad p {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .section-x p {
@@ -105,6 +116,10 @@
         padding-bottom: 30px;
         padding-top: 60px;
     }
+
+    .text-wrapper h2 {
+        padding-left: 15px;
+    }
 }
 
         /* Medium Devices, Desktops */
@@ -166,6 +181,9 @@
         padding-left: 30px;
         padding-bottom: 30px;
         padding-top: 60px;
+    }
+    .text-wrapper h2 {
+        padding-left: 15px;
     }
 }
 
@@ -230,5 +248,8 @@
         padding-left: 30px;
         padding-bottom: 30px;
         padding-top: 60px;
+    }
+    .text-wrapper h2 {
+        padding-left: 15px;
     }
 }
