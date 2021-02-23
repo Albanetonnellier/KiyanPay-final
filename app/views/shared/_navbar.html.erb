@@ -13,10 +13,10 @@
             <div class="pricing-container">
               <div class="pricing-switcher">
                 <p class="fieldset">
-                  <input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
-                  <label for="monthly-1" ><a href="/">Personal</a></label>
-                  <input type="radio" name="duration-1" value="yearly" id="yearly-1">
-                  <label for="yearly-1"><a href="/professional">Business</a></label>
+                  <input type="radio" onclick="navigate1()" name="duration-1" value="monthly" id="monthly-1" checked>
+                  <label for="monthly-1" >Personal</label>
+                  <input type="radio" onclick="navigate()"" name="duration-1" value="yearly" id="yearly-1">
+                  <label for="yearly-1">Business</label>
                   <span class="switch"></span>
                 </p>
               </div>        
@@ -46,6 +46,14 @@
   </div>
 </nav>
 
+<script>
+  function navigate(){
+    window.open("/professional",'_self');
+}
+  function navigate1(){
+    window.open("/",'_self');
+}
+</script>
 
 <!-- Very important to make jquery work -->
 
