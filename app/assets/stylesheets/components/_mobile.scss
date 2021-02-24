@@ -94,6 +94,10 @@
       }
     }
 
+    .sticky{
+      visibility: hidden
+    }
+
     .section-v .container-small-l {
       display: flex;
       flex-direction: column-reverse;
@@ -162,6 +166,13 @@
         padding-bottom: 50px;
     }
 
+    .text-content {
+        padding-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 60px; 
+    }
+
 }
 
         /* Small Devices, Tablets */
@@ -188,6 +199,10 @@
     .section-t .slide-left {
         padding-left: 20px; 
         padding-top: 180px;
+    }
+
+    .section-f {
+        padding-bottom: 100px;
     }
 
     .section-f .slide-left {
@@ -276,6 +291,11 @@
     .displaynone br {
         display: none;
     }
+
+    .text-content {
+        padding-left: 350px;
+    }
+
 }
 
         /* Medium Devices, Desktops */
@@ -308,6 +328,10 @@
         padding-top: 180px;
     }
 
+    .section-f {
+        padding-bottom: 100px;
+    }
+
     .section-f .slide-left {
         padding-left: 20px; 
         padding-top: 100px;
@@ -385,6 +409,10 @@
 
     .displaynone br {
         display: none;
+    }
+
+    .text-content {
+        padding-left: 350px;
     }
 }
 
@@ -420,6 +448,10 @@
     .section-t .slide-left {
         padding-left: 20px; 
         padding-top: 180px;
+    }
+
+    .section-f {
+        padding-bottom: 100px;
     }
 
     .section-f .slide-left {
@@ -515,5 +547,9 @@
 
     .displaynone br {
       display: none;
+    }
+
+    .text-content {
+        padding-left: 350px;
     }
 }
