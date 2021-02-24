@@ -96,9 +96,9 @@ a {
 	font-weight: 500;
     transition: all 200ms linear;
 }
-.nav-item:hover .nav-link{
-	color: #212112 !important;
-}
+// .nav-item:hover .nav-link{
+// 	color: #212112 !important;
+// }
 .nav-item.active .nav-link{
 	background-color: white !important;
 }
@@ -152,6 +152,10 @@ a {
 .logo img {
 	height: 40px;
 	width: auto;
+}
+
+.nav-link:hover {
+	color: #8B959E !important;	
 }
 .nav-item a:hover {
 	color: #8B959E;
