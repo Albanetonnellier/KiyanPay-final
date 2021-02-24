@@ -8,7 +8,7 @@ routers:
 - name: "main-kiyanpay-final"
   custom_domains:
   - branch: main
-    domain: my.domain.tld
+    domain: kiyanpay.com
   routes:
   - application_name: "kiyanpay-final"
     paths:
