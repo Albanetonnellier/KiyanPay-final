@@ -6,6 +6,9 @@ application:
   port: 3000
 routers:
 - name: "main-kiyanpay-final"
+  custom_domains:
+  - branch: main
+    domain: my.domain.tld
   routes:
   - application_name: "kiyanpay-final"
     paths:
