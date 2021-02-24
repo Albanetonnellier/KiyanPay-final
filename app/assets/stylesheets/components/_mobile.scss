@@ -95,7 +95,7 @@
     }
 
     .sticky{
-      visibility: hidden
+      display: none;
     }
 
     .section-v .container-small-l {
@@ -295,6 +295,15 @@
     .text-content {
         padding-left: 350px;
     }
+    .sticky {
+        //position: absolute;
+        position: sticky;
+        top: 90px;
+        left: 0;
+        float: left;
+        padding: 20px;
+        max-width: 300px;
+    }
 
 }
 
@@ -413,6 +422,15 @@
 
     .text-content {
         padding-left: 350px;
+    }
+    .sticky {
+        //position: absolute;
+        position: sticky;
+        top: 90px;
+        left: 0;
+        float: left;
+        padding: 20px;
+        max-width: 300px;
     }
 }
 
@@ -551,5 +569,14 @@
 
     .text-content {
         padding-left: 350px;
+    }
+    .sticky {
+        //position: absolute;
+        position: sticky;
+        top: 90px;
+        left: 0;
+        float: left;
+        padding: 20px;
+        max-width: 300px;
     }
 }
