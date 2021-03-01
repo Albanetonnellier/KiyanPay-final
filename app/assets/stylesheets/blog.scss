@@ -5,17 +5,17 @@
     background-color: #f9f7f1;
     padding-top: 150px;
 }
-header{
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 80px;
-    text-transform: uppercase;
-    display: inline-block;
-    line-height: 72px;
-    margin-bottom: 20px;
+// header{
+//     font-family: 'Playfair Display', serif;
+//     font-weight: 900;
+//     font-size: 80px;
+//     text-transform: uppercase;
+//     display: inline-block;
+//     line-height: 72px;
+//     margin-bottom: 20px;
 
-}
-p{
+// }
+.allr p{
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -259,7 +259,7 @@ p{
 }
     @media only all and (max-width: 900px) {
     .collumn{
-        width: 47%;
+        width: 55%;
     }
 
 }
