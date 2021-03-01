@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'privacy' , to: 'pages#privacy'
   get 'cookies', to: 'pages#cookies'
   get 'contact', to: 'pages#contact'
+  get 'logstaff', to: 'pages#logstaff'
 end

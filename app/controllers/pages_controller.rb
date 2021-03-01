@@ -6,6 +6,7 @@ class PagesController < ApplicationController
 	end
 
 	def blog
+		require 'date'
 	end
 	
 	def professional 
@@ -22,4 +23,7 @@ class PagesController < ApplicationController
 
 	def contact
 	end
+
+	def logstaff
+	end 
 end
