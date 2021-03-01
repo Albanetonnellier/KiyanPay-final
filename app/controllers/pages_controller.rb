@@ -11,7 +11,7 @@ class PagesController < ApplicationController
 	def professional 
 	end 
 	
-	def conditions
+	def terms
 	end 
 	
 	def privacy 
