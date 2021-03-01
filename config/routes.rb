@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'blog', to: 'pages#blog'
   get 'professional', to: 'pages#professional'
-  get 'conditions' , to: 'pages#conditions'
+  get 'terms' , to: 'pages#terms'
   get 'privacy' , to: 'pages#privacy'
   get 'cookies', to: 'pages#cookies'
   get 'contact', to: 'pages#contact'
