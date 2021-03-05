@@ -67,64 +67,46 @@ a {
 	text-decoration: none;
 }
 
-
-.pricing-container.full-width {
-    width: 100%;
-    max-width: none;
+.btn-group {
+	position:relative;
+	background-color:#F2F2F2;
+	border-radius: 35px;
 }
 
-.pricing-switcher {
-	text-align: center;
+
+.btn-group a {
+	display:inline-block;
+	font-size:0.9em;
+	transition:background .3s ease, color .3s ease;
+	text-decoration:none;
+	transition:color .3s ease;
+	padding:14px 28px;
 }
 
-.pricing-switcher .fieldset {
-	display: inline-block;
-	position: relative;
-	padding: 2px;
-	border-radius: 50em;
-	border: 2px solid #F2F2F2;
-  background-color: #F2F2f2;
+.btn-group  a:nth-of-type(1) {
+  background:white;
+  border-radius: 35px;
+  text-align: center;
+}
+.btn-group  a:nth-of-type(1):hover {
+	background:white;
+    border-radius: 35px;
+    color: #8B959E;
 }
 
-.pricing-switcher input[type="radio"] {
-	position: absolute;
-	opacity: 0;
+.btn-group  a:nth-of-type(2) {
+	background:#F2F2f2;
+    border: solid;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    border-color: #F2F2f2;
 }
 
-.pricing-switcher label {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	float: left;
-	width: 90px;
-	height: 40px;
-	line-height: 40px;
-	cursor: pointer;
-	font-size: 1.4rem;
+.btn-group  a:nth-of-type(2):hover {
+	background:white;
+	border: solid;
+    border-color: #F2F2f2;
+    border-radius: 35px;
+    color: #8B959E;
 }
 
-.pricing-switcher .switch {
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 40px;
-	width: 90px;
-	background-color: white;
-	border-radius: 50em;
-	-webkit-transition: -webkit-transform 0.5s;
-	-moz-transition: -moz-transform 0.5s;
-	transition: transform 0.5s;
-}
-
-.pricing-switcher input[type="radio"]:checked + label + .switch,
-.pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
-	-webkit-transform: translateX(90px);
-	-moz-transform: translateX(90px);
-	-ms-transform: translateX(90px);
-	-o-transform: translateX(90px);
-	transform: translateX(90px);
-}
-
-.no-js .pricing-switcher {
-	display: none;
-}

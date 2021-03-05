@@ -8,19 +8,6 @@
               <%= image_tag "KP_Logo.png" %>
             <% end %>
 
-<!--  
-           To do once we add the page business -->
-            <div class="pricing-container">
-              <div class="pricing-switcher">
-                <p class="fieldset">
-                  <input type="radio" onclick="navigate1()" name="duration-1" value="monthly" id="monthly-1" checked>
-                  <label for="monthly-1" >Personal</label>
-                  <input type="radio" onclick="navigate()"" name="duration-1" value="yearly" id="yearly-1">
-                  <label for="yearly-1">Business</label>
-                  <span class="switch"></span>
-                </p>
-              </div>        
-            </div> 
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -30,7 +17,7 @@
               <ul class="navbar-nav ml-auto py-4 py-md-0">
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
                   <a class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
-                  <a class="nav-link" href="https://kiyanpay.zendesk.com/hc/en-us"aria-expanded="false">SUPPORT</a>
+                  <a class="nav-link" href="#"aria-expanded="false"><%= link_to"BUSINESS", professional_path%></a>
                 </li>
               </ul>
 
@@ -46,14 +33,6 @@
   </div>
 </nav>
 
-<script>
-  function navigate(){
-    window.open("/professional",'_self');
-}
-  function navigate1(){
-    window.open("/",'_self');
-}
-</script>
 
 <!-- Very important to make jquery work -->
 
