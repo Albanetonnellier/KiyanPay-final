@@ -49,7 +49,7 @@
 
 .search_wrap{
   width: 500px;
-  margin: 38px auto;
+  margin-top: 37px;
 }
 
 .search_wrap .search_box{
@@ -58,7 +58,7 @@
   height: 60px;
 }
 
-.search_wrap .search_box .input{
+.search_wrap .search_box .on-page-search{
   position: absolute;
   top: 0;
   left: 0;
@@ -94,21 +94,21 @@
 }
 
 
-.search_wrap.search_wrap_1 .search_box .input,
-.search_wrap.search_wrap_3 .search_box .input{
+.search_wrap.search_wrap_1 .search_box .on-page-search,
+.search_wrap.search_wrap_3 .search_box .on-page-search{
   padding-right: 80px;
 }
 
 
 
-.search_wrap.search_wrap_2 .search_box .input,
-.search_wrap.search_wrap_4 .search_box .input{
+.search_wrap.search_wrap_2 .search_box .on-page-search,
+.search_wrap.search_wrap_4 .search_box .on-page-search{
   padding-left: 80px;
 }
 
-.search_wrap.search_wrap_3 .search_box .input,
-.search_wrap.search_wrap_4 .search_box .input,
-.search_wrap.search_wrap_6 .search_box .input{
+.search_wrap.search_wrap_3 .search_box .on-page-search,
+.search_wrap.search_wrap_4 .search_box .on-page-search,
+.search_wrap.search_wrap_6 .search_box .on-page-search{
   border-radius: 50px;
 }
 
