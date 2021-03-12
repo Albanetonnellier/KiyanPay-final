@@ -9,19 +9,19 @@
 
 .site-footer
 {
-  background-color:#191C1F;
+  background-color:#104138;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
-}
+  color:#F0F0F0;
+} 
 .site-footer img {
   max-height: 150px;
   max-width: 200px;
 }
 .site-footer hr
 {
-  border-top-color:#bbb;
+  border-top-color:#F0F0F0;
   opacity:0.5
 }
 .site-footer hr.small
@@ -56,7 +56,7 @@
 }
 .footer-links a
 {
-  color:#737373;
+  color:#F0F0F0;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
@@ -79,7 +79,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#33353d
+  background-color:#25C3A3;
 }
 .copyright-text
 {
@@ -124,7 +124,7 @@
 }
 .social-icons a{
   background-color:#eceeef;
-  color:#818a91;
+  color:#F0F0F0;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -169,6 +169,10 @@
     margin-right:0;
     font-weight:600
   }
+}
+
+.copyright-text  {
+  color: #F0F0F0 !important;
 }
 
 .instagram img {
