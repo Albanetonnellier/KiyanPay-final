@@ -17,7 +17,9 @@
 } 
 .site-footer img {
   max-height: 150px;
-  max-width: 200px;
+  max-width: 150px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .site-footer hr
 {
@@ -142,7 +144,7 @@
   color:#fff;
   background-color:#29aafe
 }
-.social-icons.size-sm a
+.social-icons.size-sm a 
 {
   line-height:34px;
   height:34px;
@@ -183,3 +185,5 @@ a:hover {
   text-decoration : none;
   outline: none;
 }
+
+
