@@ -23,6 +23,11 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'simple_form'
 
+#Testing my app
+group :development, :test do
+  gem 'rspec-rails'
+end
+
 #get user city 
 gem 'geocoder'
 # Gemfile
