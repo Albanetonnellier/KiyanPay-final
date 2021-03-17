@@ -104,13 +104,7 @@ from_ammountEl.addEventListener('input', function() {calculate ('from')});
 to_currencyEl.addEventListener('change', function() {calculate ('to')});
 to_ammountEl.addEventListener('input', function() {calculate ('to')});
  
-exchange.addEventListener('click', () => {
-  const temp = from_currencyEl.value;
-  from_currencyEl.value = to_currencyEl.value;
-  to_currencyEl.value = temp;
-  calculate();
-});
- 
+
 function calculate(mode) {
   const from_currency = from_currencyEl.value;
   const to_currency = to_currencyEl.value;
@@ -125,6 +119,7 @@ function calculate(mode) {
 
     rateEl.innerText = `1 ${from_currency} = ${res.exchangeRate} ${to_currency}`
     to_ammountEl.value = (res.toAmount);
+    from_ammountEl.value = (res.fromAmount);
   })
 }
  
