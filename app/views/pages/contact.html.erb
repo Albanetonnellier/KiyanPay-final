@@ -1,25 +1,25 @@
-<section class="section-a">  
-  <div class="container-1">
-    <div class="mobilepad">
-      <div class="slide-left">
-      <h1>Banking <br>For All</h1>
+<%= render 'shared/navbar' %>
+
+
+<section class="section-a">
+  <div class="container">
+    <div>
+      <div class="text-down">
+        <h1>Banking <br>For All</h1><br>
       <p>
         Open a free bank account in minutes. <br>No hidden fees, no fuss. Just pure,<br> straightforward banking.
       </p><br><br>
-             <a href="https://gate.kiyanpay.com/signup?type=personal" class="brk-btn">JOIN US TODAY</a>
+        <a href="https://gate.kiyanpay.com/signup?type=personal" class="brk-btn">JOIN US TODAY</a>
       </div>
     </div>
-    <div class="right-side">
-      <img src="https://i.ibb.co/SmnzHkD/Untitled-Artwork-35.png" class="floating" />
-    </div>
-  </div> 
-</section>
+    <div class="padd">
+      <img src="https://i.ibb.co/LCk1w23/calculator.png" class="floating" />
 
-<div class="container">
+      <div class="container-currency"> 
   <div class="currency">
     <input type="number" id="from_ammount" placeholder="You send" value=1 />
     <select id="from_currency">
-    <option value="AED">AED</option>
+    <option value="AED"><img src="https://i.ibb.co/S6gb5dz/AED.png" alt="">AED</option>
     <option value="AUD">AUD</option>
     <option value="BGN">BGN</option>
     <option value="CAD">CAD</option>
@@ -86,8 +86,13 @@
     </select>
   </div>
 
+    </div>
+  </div>
+</section>
 
-</div>
+
+
+
 
 
 
@@ -101,7 +106,7 @@ const exchange = document.getElementById('exchange');
  
 from_currencyEl.addEventListener('change', function() {calculate ('from')});
 from_ammountEl.addEventListener('input', function() {calculate ('from')});
-to_currencyEl.addEventListener('change', function() {calculate ('to')});
+to_currencyEl.addEventListener('change', function() {calculate ('to')}); 
 to_ammountEl.addEventListener('input', function() {calculate ('to')});
  
 
