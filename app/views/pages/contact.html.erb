@@ -1,21 +1,22 @@
 <%= render 'shared/navbar' %>
 
-
-<section class="section-a">
-  <div class="container">
-    <div>
-      <div class="text-down">
-        <h1>Banking <br>For All</h1><br>
+<section class="section-a">  
+  <div class="container-1">
+    <div class="mobilepad">
+      <div class="slide-left">
+      <h1>Banking <br>For All</h1>
       <p>
         Open a free bank account in minutes. <br>No hidden fees, no fuss. Just pure,<br> straightforward banking.
       </p><br><br>
-        <a href="https://gate.kiyanpay.com/signup?type=personal" class="brk-btn">JOIN US TODAY</a>
+             <a href="https://gate.kiyanpay.com/signup?type=personal" class="brk-btn">JOIN US TODAY</a>
       </div>
     </div>
-    <div class="padd">
-      <img src="https://i.ibb.co/LCk1w23/calculator.png" class="floating" />
+    <div class="right-side">
+      <img src="https://i.ibb.co/K5GX9Pj/calculator.png"  />
+    </div>
+  </div> 
 
-      <div class="container-currency"> 
+  <div class="container-currency"> 
   <div class="currency">
     <input type="number" id="from_ammount" placeholder="You send" value=1 />
     <select id="from_currency">
@@ -50,11 +51,14 @@
     
   </div>
 
-  <ul>
-  <li><div class="rate" id="rate"></div></li>
-  </ul>
+  <div class="vertical">
+    <ul>
+      <li><br>&nbsp&nbspFee :</li><br>
+      <li>&nbsp&nbspExchange Rate :<div class="rate" id="rate"></div></li>
+    </ul>
+  </div>
 
-  <div class="currency">
+  <div class="currency-2">
     <input type="number" id="to_ammount" placeholder="They receive" />
     <select id="to_currency"><option value="AED">AED</option>
     <option value="AUD">AUD</option>
@@ -86,11 +90,13 @@
     </select>
   </div>
 
+    <a href="https://gate.kiyanpay.com/login" class="brk-btn">Convert</a>
+
     </div>
+
+
   </div>
 </section>
-
-
 
 
 
