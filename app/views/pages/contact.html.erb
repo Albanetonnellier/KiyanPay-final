@@ -18,9 +18,10 @@
 
   <div class="container-currency"> 
   <div class="currency">
-
-    <input type="number" id="from_ammount" placeholder="You send" value=1 />
+    <label class="control-label" for="from_ammount">You send </label>
+    <input type="number" id="from_ammount" placeholder="0.00" value=1 />
     <select id="from_currency">
+
     <option value="AED"><img src="https://i.ibb.co/S6gb5dz/AED.png" alt=""><p>&nbsp&nbsp🇦🇪 AED</p></option>
     <option value="AUD"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
     <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
@@ -48,20 +49,24 @@
     <option value="THB"><p>&nbsp&nbsp🇹🇭 THB</p></option>
     <option value="TRY"><p>&nbsp&nbsp🇹🇷 TRY</p></option>
     <option value="USD" selected><p>&nbsp&nbsp🇺🇸 USD</p></option>
+
     </select>
     
   </div>
-
+    <div class="circle"></div>
+    <div class="circle2"></div>
   <div class="vertical">
+
     <ul class="left-space">
       <li><br>&nbsp&nbspFee :</li><br>
       <li>&nbsp&nbspExchange Rate :<div class="rate" id="rate">&nbsp</div></li>
     </ul>
   </div>
-
+  
   <div class="currency-2">
-    <input type="number" id="to_ammount" placeholder="They receive" />
-    <select id="to_currency"><option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
+    <label class="control-label" for="to_ammount">They receive</label>
+    <input type="number" id="to_ammount" placeholder="0.00" />
+    <select class="selectpicker" data-live-search="true" id="to_currency"><option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
     <option value="AUD"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
     <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
     <option value="CAD"><p>&nbsp&nbsp🇨🇦 CAD</p></option>
@@ -137,3 +142,4 @@ function calculate(mode) {
  
 calculate();
 </script>
+
