@@ -1,4 +1,51 @@
-<%= render 'shared/blognavbar' %>
+   <div class="navigation-wrap start-header-blog start-style">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <%= link_to "/", class: "navbar-brand" do %>
+              <%= image_tag "KP_Logo2.png" %>
+            <% end %>
+
+    <div class="navigationbarblog">
+
+      <a href="/">Personal</a>
+      <a href="/professional">Business</a>
+      <div class="animation start-home"></div>
+    </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto py-4 py-md-0">
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                  <a class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
+                  <a class="nav-link" href="https://intercom.help/kiyanpay-support/en/"aria-expanded="false">SUPPORT</a>
+                </li>
+              </ul>
+
+              <div class="position-btn">
+                <div class='brk-btn'><a href="https://gate.kiyanpay.com/login">Log in</a></div>
+              </div>
+          
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Very important to make jquery work -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+
 
 <article>
   <h1>Article title</h1>
@@ -7,7 +54,7 @@
     <time><%= request.location.city %> - <%= Date.today.strftime("%a, %e %b %Y") =%> </time>
   </div>
 
-  <section>
+  <section class="articles">
     <h2>Subheading to the article</h2>
 
     <p lang="en">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac
@@ -23,14 +70,14 @@
     <p>Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac facilisis in, egestas eget
       quam. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
 
-    <h3>Subheading</h3>
+    <h2>Subheading</h2>
 
     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes,
       nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.</p>
 
     <p>Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-    <h3>Subheading</h3>
+    <h2>Subheading</h2>
 
     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Integer
       posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
