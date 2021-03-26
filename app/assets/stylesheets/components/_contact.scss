@@ -183,10 +183,7 @@ select {
   } 
 }
 
-::placeholder {
-  margin-top: 10px;
 
-}
 
 .currency-2 {
   border: 1px solid #104138;
@@ -230,3 +227,6 @@ select {
     line-height: inherit;
 }
 
+.special {
+  font-weight: bold !important;
+}
