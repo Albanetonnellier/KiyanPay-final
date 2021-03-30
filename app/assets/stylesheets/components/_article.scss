@@ -1,11 +1,7 @@
-::selection {
-  background: #f9f7f1;
-  color: #E6E6E6;
-}
 
 .articles {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 article {
@@ -21,7 +17,8 @@ article {
   font-weight: 700;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 
@@ -69,7 +66,6 @@ blockquote {
 
 @media only all and (min-width: 600px) {
   article {
-    columns: 3;
     column-gap: 40px;
     line-height: 1.5em;
     font-size: 1em;
@@ -88,4 +84,14 @@ blockquote {
     hyphens: auto;
     hyphenate-character: "\u2605";
   }
+  h2 {
+    text-align: center;
+  }
 }
+
+.mainpicture {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 50px;
+}
+
