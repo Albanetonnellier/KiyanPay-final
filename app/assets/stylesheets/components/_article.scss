@@ -19,11 +19,7 @@ article {
   margin: 0px;
   margin-bottom: 40px;
   margin-top: 50px;
-}
-
-
-
-h2 {
+  h2 {
   font-size: 3em;
   line-height: 1em;
   margin-top: 10px;
@@ -37,6 +33,10 @@ h3 {
   line-height: 0.8em;
   padding-top: 20px;
 }
+}
+
+
+
 }
 blockquote {
   font-family: 'Gilroy', sans-serif;
@@ -79,6 +79,7 @@ blockquote {
     column-span: all;
   }
   p {
+ 
     hyphens: auto;
     hyphenate-character: "\u2605";
   }
