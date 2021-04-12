@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'cookies', to: 'pages#cookies'
   get 'contact', to: 'pages#contact'
   get 'article', to: 'pages#article'
+  get 'careers', to: 'pages#careers'
 end

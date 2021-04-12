@@ -1,28 +1,31 @@
 class PagesController < ApplicationController
 	def about
-	end 
+	end
 
 	def home
 	end
 
 	def blog
 	end
-	
-	def professional 
-	end 
-	
+
+	def professional
+	end
+
 	def terms
-	end 
-	
-	def privacy 
-	end 
-	
+	end
+
+	def privacy
+	end
+
 	def cookies
-	end 
+	end
 
 	def contact
 	end
 
-	def article 
-	end 
+	def article
+	end
+
+  def careers
+  end
 end
