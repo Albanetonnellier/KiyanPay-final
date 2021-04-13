@@ -1,4 +1,4 @@
-  /* Extra Small Devices, Phones */ 
+  /* Extra Small Devices, Phones */
 @media only screen and (max-width : 500px) {
     .section-a {
         padding-top: 50px;
@@ -34,7 +34,7 @@
 
     .section-x p {
         padding-left: 40px;
-        padding-right: 40px;        
+        padding-right: 40px;
     }
 
     .section-m {
@@ -73,7 +73,7 @@
         font-size: 2rem;
       }
     }
- 
+
     .float-r {
       visibility: hidden
     }
@@ -110,7 +110,7 @@
 
     .section-r .container-2 {
         padding-left: 40px;
-        padding-right: 40px;        
+        padding-right: 40px;
     }
 
     .section-a .text-down h1 {
@@ -122,23 +122,23 @@
     }
 
     .section-m .slide-left h1 {
-        font-size: 6rem;       
+        font-size: 6rem;
     }
 
     .section-t .slide-left h1 {
-        font-size: 6rem;       
+        font-size: 6rem;
     }
 
     .section-f .slide-left h1 {
-        font-size: 6rem;       
+        font-size: 6rem;
     }
 
     .section-l h1 {
-        font-size: 7rem;         
+        font-size: 7rem;
     }
 
     .container-end .section-a h1 {
-        font-size: 7rem;         
+        font-size: 7rem;
     }
 
     .section-v .container-small h1 {
@@ -174,7 +174,17 @@
         padding-top: 15px;
         padding-left: 60px;
         padding-right: 60px;
-        padding-bottom: 60px; 
+        padding-bottom: 60px;
+    }
+
+    .articles {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    article {
+      h1 {
+         font-size: 4rem;
+      }
     }
 
 }
@@ -196,12 +206,12 @@
     }
 
     .section-m .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 180px;
     }
 
     .section-t .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 180px;
     }
 
@@ -210,7 +220,7 @@
     }
 
     .section-f .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 100px;
     }
 
@@ -223,7 +233,7 @@
     }
 
     .section-l h1 {
-        font-size: 7rem;         
+        font-size: 7rem;
     }
 
     .section-x {
@@ -252,7 +262,7 @@
     .mid-title h2 {
         padding-top: 150px;
     }
- 
+
     .text-wrapper {
         padding-right: 60px;
         padding-left: 30px;
@@ -317,6 +327,21 @@
     }
     .card3 .details {
         margin-bottom: 50px;
+    }
+
+    .articles {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+
+    article {
+      h1 {
+        font-size: 6rem;
+      }
+      img {
+        max-height: 550px;
+        max-width: 800px;
+      }
     }
 
 }
@@ -347,7 +372,7 @@
     }
 
     .section-t .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 180px;
     }
 
@@ -360,11 +385,11 @@
     }
 
     .section-l h1 {
-        font-size: 7rem;         
+        font-size: 7rem;
     }
 
     .section-f .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 100px;
     }
 
@@ -460,6 +485,20 @@
     }
     .card3 .details {
         margin-bottom: 50px;
+    }
+    .articles {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+
+    article {
+      h1 {
+         font-size: 6em;
+      }
+      img {
+        max-height: 550px;
+        max-width: 800px;
+      }
     }
 }
 
@@ -493,7 +532,7 @@
     }
 
     .section-t .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 180px;
     }
 
@@ -502,7 +541,7 @@
     }
 
     .section-f .slide-left {
-        padding-left: 20px; 
+        padding-left: 20px;
         padding-top: 100px;
     }
 
@@ -613,5 +652,19 @@
     }
     .card3 .details {
         margin-bottom: 50px;
+    }
+    .articles {
+      margin-left: 300px;
+      margin-right: 300px;
+
+    }
+    article {
+      h1 {
+         font-size: 6em;
+      }
+      img {
+        max-height: 750px;
+        max-width: 1000px;
+      }
     }
 }
