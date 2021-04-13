@@ -1,8 +1,5 @@
 
-.articles {
-  margin-left: 300px;
-  margin-right: 300px;
-}
+
 
 article {
   padding-top: 100px;
@@ -11,7 +8,6 @@ article {
   h1 {
 
   text-transform: uppercase;
-  font-size: 6em;
   line-height: 1em;
   text-align: center;
   font-weight: 700;
@@ -35,7 +31,10 @@ h3 {
 }
 }
 
-
+.center img {
+  max-height: 500px;
+  max-height: 500px;
+}
 
 }
 blockquote {
@@ -79,7 +78,7 @@ blockquote {
     column-span: all;
   }
   p {
- 
+
     hyphens: auto;
     hyphenate-character: "\u2605";
   }
@@ -92,5 +91,10 @@ blockquote {
   margin-left: 300px;
   margin-right: 300px;
   padding-bottom: 50px;
+
+  img {
+    max-height: 550px;
+    max-width: 800px;
+  }
 }
 
