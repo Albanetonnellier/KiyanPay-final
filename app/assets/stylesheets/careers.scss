@@ -23,7 +23,7 @@
       padding: 0;
       padding-right: 4px;
       border-right: 2px solid #747474;
-      animation: blink 0.75s infinite;
+      animation: blink 0.60s infinite;
     }
 
     .blue {
@@ -122,8 +122,8 @@
   border-radius: 20px;
   padding: 20px;
   position: relative;
-  -webkit-box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.14);
 }
 
 .timeline > li > .timeline-panel:before {
@@ -161,7 +161,7 @@
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #999999;
+  background-color: #104138;
   z-index: 100;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
@@ -196,19 +196,19 @@
 }
 
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: #C4C6E7  !important;
 }
 
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: #25C3A3 !important;
 }
 
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: #FDAD21 !important;
 }
 
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: #104138 !important;
 }
 
 .timeline-title {
@@ -225,4 +225,9 @@
   margin-top: 5px;
 }
 
+.timeline-title {
+  font-size: 3rem;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
 
