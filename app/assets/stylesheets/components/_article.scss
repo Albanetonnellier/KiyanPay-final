@@ -87,14 +87,61 @@ blockquote {
   }
 }
 
-.mainpicture {
-  margin-left: 300px;
-  margin-right: 300px;
-  padding-bottom: 50px;
+// .mainpicture {
+//   margin-left: 300px;
+//   margin-right: 300px;
+//   padding-bottom: 50px;
 
+//   img {
+//     max-height: 550px;
+//     max-width: 800px;
+//   }
+// }
+
+.mainpicture {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
   img {
-    max-height: 550px;
-    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+.articles {
+  padding-left: 50px;
+  padding-right: 50px;
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ p {
+  max-width: 950px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ li {
+  max-width: 950px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+}
+
+    // .articles {
+    //   margin-left: 300px;
+    //   margin-right: 300px;
+    // }
+
+    // article {
+    //   h1 {
+    //     font-size: 6rem;
+    //   }
+    //   img {
+    //     max-height: 550px;
+    //     max-width: 800px;
+    //   }
+    // }
 
