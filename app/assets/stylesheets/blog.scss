@@ -23,9 +23,12 @@ header{
     text-align: center;
     position: relative;
 
-
 }
-
+.content {
+  a:hover {
+    color:black;
+  }
+}
 .headerobjectswrapper{
 }
 
@@ -69,7 +72,7 @@ header{
     margin-bottom: 50px;
     transition: all .7s;
 }
-.collumn + .collumn { 
+.collumn + .collumn {
   border-left: 1px solid #2f2f2f;
 }
 .collumn .headline{
