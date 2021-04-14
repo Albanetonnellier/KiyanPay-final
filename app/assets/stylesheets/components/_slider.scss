@@ -1,5 +1,5 @@
 .container-5 {
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -45,7 +45,7 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
-.testimonial-text { 
+.testimonial-text {
   font-weight: 300;
 
 }
@@ -144,22 +144,22 @@
 }
 
 .arrow-right {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  
+
   border-left: 10px solid green;
   padding-top: 10px;
   padding-left: 5px;
 }
 
 .arrow-left {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent; 
-  
-  border-right:10px solid blue; 
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
   position: center;
 }
