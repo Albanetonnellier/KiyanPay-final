@@ -53,25 +53,25 @@ ul {
 .container-text {
   text-align: center;
   h1 {
-    
+
   }
 }
 
 
-.floating {   
-    animation-name: floating; 
-    animation-duration: 6s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: ease-in-out; 
-    margin-left: 30px; 
-    margin-top: 5px; 
-} 
-  
-@keyframes floating { 
-    0% { transform: translate(0,  0px); } 
-    50%  { transform: translate(0, 15px); } 
-    100%   { transform: translate(0, -0px); }     
-} 
+.floating {
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }
+}
 
 
 .scale-up-bottom {
@@ -80,7 +80,7 @@ ul {
 }
 
 
-img { 
+img {
   width: 100%;
 }
 
@@ -98,7 +98,7 @@ img {
   padding: 0 2rem;
   h2 {
     font-size: 6rem;
-  } 
+  }
 
 }
 
@@ -141,7 +141,7 @@ p {
   .section-a .container-3 {
     grid-template-columns: 1fr;
     text-align: center;
-  } 
+  }
 
 }
 
@@ -301,7 +301,7 @@ p {
 
 
 
-// Section c only 
+// Section c only
 
 .section-c {
   width: 100%;
@@ -402,7 +402,7 @@ p {
   align-items: center;
   justify-content: center;
 
-} 
+}
 
 @media (max-width: 700px) {
   .section-r .container-2 {
@@ -475,7 +475,7 @@ p {
 }
 
 
-// Section d only 
+// Section d only
 
 .section-d {
   position: relative;
@@ -598,6 +598,7 @@ p {
   overflow: hidden;
 }
 
+
 .section-x .container-2 {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -713,7 +714,7 @@ p {
   .section-t .container div:first-child {
     order: -1;
   }
- 
+
   .section-t .container div:nth-child(3) {
     order: -3;
   }
@@ -726,7 +727,7 @@ p {
   }
 }
 
-// section f 
+// section f
 
 .section-f {
   margin: 2rem 0;
@@ -773,7 +774,7 @@ p {
   .section-f .container div:first-child {
     order: -1;
   }
- 
+
   .section-f .container div:nth-child(3) {
     order: -3;
   }
