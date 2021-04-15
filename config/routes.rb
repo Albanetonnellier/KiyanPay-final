@@ -11,4 +11,9 @@ Rails.application.routes.draw do
   get 'contact', to: 'pages#contact'
   get 'article', to: 'pages#article'
   get 'careers', to: 'pages#careers'
+  get "article1" , to: 'pages#article1'
+  get "article2" , to: 'pages#article2'
+  get "article3" , to: 'pages#article3'
+  get "article4" , to: 'pages#article4'
+  get "article5" , to: 'pages#article5'
 end
