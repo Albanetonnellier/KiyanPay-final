@@ -20,6 +20,12 @@ article {
   line-height: 1em;
   margin-top: 10px;
   margin-bottom: 10px;
+  li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle;
+    display: inline;
+ }
 }
 
 h3 {
@@ -122,6 +128,8 @@ blockquote {
  h2 {
   font-size: 3rem;
  }
+
+
  p {
   max-width: 950px;
   display: block;

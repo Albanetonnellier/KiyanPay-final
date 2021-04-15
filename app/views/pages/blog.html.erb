@@ -22,6 +22,7 @@
               <ul class="navbar-nav ml-auto py-4 py-md-0">
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
                   <a class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
+                  <a class="nav-link" href="#"aria-expanded="false"><%= link_to"BLOG", blog_path%></a>&nbsp &nbsp&nbsp
                   <a class="nav-link" href="https://intercom.help/kiyanpay-support/en/"aria-expanded="false">SUPPORT</a>
                 </li>
               </ul>
@@ -59,7 +60,7 @@
 <div class="content">
     <div class="collumns">
         <div class="collumn">
-            <div class="head"><span class="headline hl3">Stress Awareness Month</span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>
+            <div class="head"><span class="headline hl3"><%= link_to"Stress Awareness Month", article_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>
             Here at KiyanPay we try to reduce as much stress for our customers as possible. Whether you’re a
 student, a parent or a small business we want to make sure that your lives are getting easier.</p>
             <figure class="figure">
@@ -71,21 +72,25 @@ student, a parent or a small business we want to make sure that your lives are g
             great but they’re probably not going to change much for you! We’re here to share some tried and tested
             methods that are going to have you breathing deeper and smiling wider<br><br> 
 
-            <%= link_to"Discover the full article", article_path%>
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article_path%>
+            </div>
             </p></div>
 
-        <div class="collumn"><div class="head"><span class="headline hl1">Three Things We Should Have Been Taught At School: Money</span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Three Things We Should Have Been Taught At School: Money", article1_path%></span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
         <p>It’s no secret that the education system is failing us in more ways than one. We leave school feeling overwhelmed and under-prepared. We’re here to fill in some gap.</p></p>
 
             <p> <span class="citation">1. Credit Scores</span> Adult life is plagued by numbers which value us and our achievements. Our credit scores are one of the most intriguing examples. It’s a way for banks (and others) to judge us based on how well we budget and spend. In other words, they want to know how well we’ll return the money they’ll lend us</p>
 
             <p>So, how does one get a good credit score?</p>
 
-            <%= link_to"Discover the full article", article1_path%>
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article1_path%>
+            </div>
           </div>
 
         <div class="collumn">
-            <div class="head"><span class="headline hl3">Best Accounting Software's for Small Businesses:</span><p><span class="headline hl6">by Vicky Veselichka</span></p></div>
+            <div class="head"><span class="headline hl3"><%= link_to"Best Accounting Software's for Small Businesses:", article2_path%></span><p><span class="headline hl6">by Vicky Veselichka</span></p></div>
             We told you we want to do all the hard work and let you focus on your business and we meant it!</p>
             <p>
 
@@ -101,11 +106,13 @@ student, a parent or a small business we want to make sure that your lives are g
 
             <p>The interface is intuitive and easy to grapple with and there is a lot of help from the customer service team to aid you in your journey of accounting discovery</p>
 
-            <%= link_to"Discover the full article", article2_path%>
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article2_path%>
+            </div>
 
 
         </div>
-        <div class="collumn"><div class="head"><span class="headline hl3">Financial Security </span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Financial security is usually defined as a feeling in control of your income and spending. In other words, you're making more than you're spending and you feel good about it!</p>
+        <div class="collumn"><div class="head"><span class="headline hl3"><%= link_to"Financial Security", article3_path%> </span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Financial security is usually defined as a feeling in control of your income and spending. In other words, you're making more than you're spending and you feel good about it!</p>
 
         <p> <span class="citation">Why Should We Care About Financial Security?</span>
 
@@ -113,10 +120,13 @@ student, a parent or a small business we want to make sure that your lives are g
 
         <p>Being financial secure removes the guilt and stress which can surround spending. Particularly during a pandemic when even national financial security was in question.</p>
 
-        <%= link_to"Discover the full article", article3_path%>
+        <div class="styling-text">
+            <%= link_to"Discover the full article", article3_path%>
         </div>
 
-        <div class="collumn"><div class="head"><span class="headline hl1">Money Making While Sleeping</span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Isn't that the dream that all billionaires are selling? Passive income. </p>
+        </div>
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Money Making While Sleeping", article4_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Isn't that the dream that all billionaires are selling? Passive income. </p>
 
         <p>The thing is, passive income isn't very passive at all. It's more like do all the work at once and then sit back and wait for the benefits to role in income. The thing about the passive income that we're sold online is that it is usually risky, or involves a big investment.</p>
 
@@ -130,13 +140,15 @@ student, a parent or a small business we want to make sure that your lives are g
 
         <p>Don't Earn It All At Once!</p>
 
-        <%= link_to"Discover the full article", article4_path%>
+        <div class="styling-text">
+            <%= link_to"Discover the full article", article4_path%>
+        </div>
 
 
         </div>
 
         <div class="collumn">
-            <div class="head"><span class="headline hl3">Scams: Staying Safe Online</span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+            <div class="head"><span class="headline hl3"><%= link_to"Scams: Staying Safe Online", article5_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
 
             <p>Money can be pretty hard to earn, so when we do, we like to keep it to ourselves (unless we’re treating our loved ones of course!) Because it’s hard to earn a lot of people prefer to take other people’s rather than making their own.</p>
 
@@ -146,7 +158,9 @@ student, a parent or a small business we want to make sure that your lives are g
 
             <p>Here are a few simple things that you can do to make sure your money is under your control only.</p>
 
-            <%= link_to"Discover the full article", article5_path%>
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article5_path%>
+            </div>
         </div>
     </div>
 </div>
