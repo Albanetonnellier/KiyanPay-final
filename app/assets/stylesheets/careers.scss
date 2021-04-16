@@ -231,3 +231,27 @@
   padding-top: 5px;
 }
 
+.modal-content p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.modal-content h4 {
+  text-align: center;
+}
+
+.modal-content {
+  button {
+  width: 140px;
+  height: 40px;
+  background-color: #104138;
+  color: white;
+  border-radius: 35px;
+  border: none;
+  }
+  button:hover {
+    color: #f8f8ff
+;
+  }
+}
+
