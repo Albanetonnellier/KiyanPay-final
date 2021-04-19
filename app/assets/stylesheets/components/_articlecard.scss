@@ -2,9 +2,10 @@
 
 .user-profile {
   margin: auto;
-  width: 25em;
+  width: 19em;
   height: 11em;
   padding-top: 50px;
+  overflow: hidden;
 }
 
 .user-profile  .username {
@@ -12,7 +13,7 @@
   margin-top: -3.6em;
   margin-left: 6em;
   color: #222629;
-  font-size: 1.53em;
+  font-size: 1.5em;
   font-weight: bold;
   font-style: "Gilroy" sans-serif;
 }
