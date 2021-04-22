@@ -166,9 +166,6 @@
         padding-right: 40px;
     }
 
-    .section-f .slide-left {
-        padding-bottom: 50px;
-    }
 
     .text-content {
         padding-top: 15px;
@@ -181,6 +178,32 @@
       h1 {
          font-size: 4rem;
       }
+    }
+    .container-currency {
+      background-image: url("https://i.ibb.co/bHHtCPh/calculatormobile.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 410px 400px;
+      padding-bottom: 100px;
+      min-height: 340px;
+      min-width: 390px;
+      padding-top: 70px;
+      padding-left: 25px;
+    }
+
+    .section-f {
+      .slide-left {
+        padding-top: 50px;
+      }
+    }
+    .vertical {
+      ul {
+        position: absolute;
+      }
+    }
+
+    .section-f {
+      padding-bottom: 50px;
     }
 
 }
@@ -334,7 +357,20 @@
         max-width: 800px;
       }
     }
-
+    .container-currency {
+      padding-top: 210px;
+      padding-left: 215px;
+      position: center;
+      background-image: url("https://i.ibb.co/6sHkXxX/Untitled-Artwork-2.png");
+      background-repeat: no-repeat;
+      background-position: center 30px;
+      background-size: 700px 700px;
+      min-height: 720px;
+      min-width: 800px;
+      .btncenter {
+        padding-left: 115px;
+      }
+    }
 }
 
         /* Medium Devices, Desktops */
@@ -486,6 +522,17 @@
         max-height: 550px;
         max-width: 800px;
       }
+    }
+    .container-currency {
+      padding-top: 210px;
+      padding-left: 215px;
+      position: center;
+      background-image: url("https://i.ibb.co/6sHkXxX/Untitled-Artwork-2.png");
+      background-repeat: no-repeat;
+      background-position: center 30px;
+      background-size: 700px 700px;
+      min-height: 720px;
+      min-width: 800px;
     }
 }
 
@@ -648,5 +695,16 @@
         max-height: 750px;
         max-width: 1000px;
       }
+    }
+    .container-currency {
+      padding-top: 210px;
+      padding-left: 215px;
+      position: center;
+      background-image: url("https://i.ibb.co/6sHkXxX/Untitled-Artwork-2.png");
+      background-repeat: no-repeat;
+      background-position: center 30px;
+      background-size: 700px 700px;
+      min-height: 720px;
+      min-width: 800px;
     }
 }

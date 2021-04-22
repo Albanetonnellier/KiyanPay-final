@@ -36,7 +36,6 @@ ul {
   }
 }
 
-
 // Scroll animation
 
 .container-3 h1 h2 h3 p {
@@ -57,7 +56,6 @@ ul {
   }
 }
 
-
 .floating {
     animation-name: floating;
     animation-duration: 6s;
@@ -73,12 +71,10 @@ ul {
     100%   { transform: translate(0, -0px); }
 }
 
-
 .scale-up-bottom {
   -webkit-animation: scale-up-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
           animation: scale-up-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-
 
 img {
   width: 100%;
@@ -105,8 +101,6 @@ img {
 .section-a {
   margin: 2rem 0;
 }
-
-
 
 .section-a a:hover {
   color: white;
@@ -164,8 +158,6 @@ p {
   font-size: 2rem;
 }
 
-
-
 @media (max-width: 700px) {
   .section-a .container-1 {
     grid-template-columns: 1fr;
@@ -185,11 +177,9 @@ p {
   }
 }
 
-
 .section-m {
   margin: 2rem 0;
 }
-
 
 .section-m a:hover {
   color: white;
@@ -215,8 +205,6 @@ p {
   font-size: 2rem;
 }
 
-
-
 @media (max-width: 700px) {
   .section-m .container {
     grid-template-columns: 1fr;
@@ -235,8 +223,6 @@ p {
   }
 }
 
-
-
 // Section b only
 
 .section-b {
@@ -244,7 +230,6 @@ p {
   height: 600px;
   background-color: white;
 }
-
 
 .section-b-inner {
   height: 100%;
@@ -258,7 +243,6 @@ p {
   padding: 5rem 0;
   max-height: 600px;
 }
-
 
 .section-b-inner h3 {
   font-size: 2rem;
@@ -298,8 +282,6 @@ p {
     margin: auto;
   }
 }
-
-
 
 // Section c only
 
@@ -365,7 +347,6 @@ p {
   font-size: 4rem;
 }
 
-
 .section-c a:hover {
   color: white;
   font-weight: bold;
@@ -385,7 +366,6 @@ p {
   font-size: 4rem;
   color: var(--primary-color);
 }
-
 
 .section-r {
   width: 100%;
@@ -474,7 +454,6 @@ p {
   color: var(--primary-color);
 }
 
-
 // Section d only
 
 .section-d {
@@ -482,7 +461,6 @@ p {
   min-height: 850px;
   background-color: #e9f9f6;
 }
-
 
 .section-d-inner {
   height: 100%;
@@ -496,7 +474,6 @@ p {
   padding: 5rem 0;
   max-height: 600px;
 }
-
 
 .section-d-inner h3 {
   font-size: 2rem;
@@ -558,7 +535,6 @@ p {
 
 // container h
 
-
 .overlay {
   height: 100%;
   width: 100%;
@@ -573,7 +549,6 @@ p {
   height: 600px;
   background-color: #e9f9f6;
 }
-
 
 .section-l-inner {
   height: 100%;
@@ -597,7 +572,6 @@ p {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
-
 
 .section-x .container-2 {
   display: grid;
@@ -653,7 +627,6 @@ p {
   font-size: 4rem;
 }
 
-
 .section-x a:hover {
   color: white;
   font-weight: bold;
@@ -679,7 +652,6 @@ p {
   margin: 2rem 0;
 }
 
-
 .section-t a:hover {
   color: white;
   font-weight: bold;
@@ -703,8 +675,6 @@ p {
   margin: 1rem 0;
   font-size: 2rem;
 }
-
-
 
 @media (max-width: 700px) {
   .section-t .container {
@@ -734,7 +704,6 @@ p {
   background-color: #e9f9f6;
 }
 
-
 .section-f .brk-btn:hover {
   color: white;
   font-weight: bold;
@@ -747,7 +716,7 @@ p {
 
 .section-f .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-gap: 3rem;
   align-items: center;
   justify-content: center;
@@ -764,7 +733,13 @@ p {
   font-size: 2rem;
 }
 
-
+// .section-f {
+//   .container {
+//     .right-side {
+//       background-image: url("https://i.ibb.co/K5GX9Pj/calculator.png");
+//     }
+//   }
+// }
 
 @media (max-width: 700px) {
   .section-f .container {
@@ -786,4 +761,3 @@ p {
     margin: auto;
   }
 }
-

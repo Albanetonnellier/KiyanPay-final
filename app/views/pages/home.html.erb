@@ -104,15 +104,6 @@
 </section>
 
 
-<!--   <div class="blog-card">
-    <div class="meta">
-      <div class="photo" style="background-image: url(https://i.ibb.co/p1mWmpK/Untitled-Artwork-26.png)"></div>
-    </div>
-    <div class="description">
-      <h1>KiyanPay Multi-Currency Cards</h1>
-      <p> Soon you'll be able to take your virtual money with you and use it wherever you go. With our new multi-currency cards to launch later this year, you will be able to use your money to purchase or withdraw from ATM's around the world.</p>
-    </div>
-  </div> -->
 
 <section class="section-v">
   <div class="container-small">
@@ -196,22 +187,138 @@
     </div>
 </div>
 
+
+<!-- Calculator section  -->
 <section class="section-f">
   <div class="container">
-    <div class="right-side">
-      <img src="https://i.ibb.co/qnNt8kL/Untitled-Artwork.png" />
-    </div>
     <div class="slide-left">
       <h1>Easy Borderless Payments</h1><br>
       <p>
        Need to transfer money to your world? With Kiyanpay's international transfers, you can send money abroad the easy way, with rates up to 9 x cheaper than banks. Have access to a growing list of more than 30 currencies, and transfer with confidence, with our fraud detection and encryption technology.
       </p><br><br>
-      <div class="displaynone">
-        <a href="https://app.kiyanpay.com/#/ext/signup/en-GB" class="brk-btn">Sign Up for International Transfers</a> &nbsp &nbsp<br><br><a href="https://app.kiyanpay.com/#/ext/login/en-GB" class="color-hover">LOGIN</a>
-      </div>
     </div>
+
+        <div class="container-currency">
+        <div class="currency">
+          <label class="control-label" for="from_ammount">You send </label>
+          <input type="number" id="from_ammount" placeholder="0.00" value=1 />
+          <select name="wgtmsr" class="select" id="from_currency">
+
+          <option value="AED"><img src="https://i.ibb.co/S6gb5dz/AED.png" alt=""><p>&nbsp&nbsp🇦🇪 AED</p></option>
+          <option value="AUD" class="special"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
+          <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
+          <option value="CAD"><p>&nbsp&nbsp🇨🇦 CAD</p></option>
+          <option value="CHF"><p>&nbsp&nbsp🇨🇭CHF</p></option>
+          <option value="CNY"><p>&nbsp&nbsp🇨🇳 CNY</p></option>
+          <option value="CZK"><p>&nbsp&nbsp🇨🇿 CZK</p></option>
+          <option value="DKK"><p>&nbsp&nbsp🇩🇰 DKK</p></option>
+          <option value="EUR"><p>&nbsp&nbsp🇪🇺 EUR</p></option>
+          <option value="GBP"><p>&nbsp&nbsp🇬🇧 GBP</p></option>
+          <option value="HKD"><p>&nbsp&nbsp🇭🇰 HKD</p></option>
+          <option value="HRK"><p>&nbsp&nbsp🇭🇷 HRK</p></option>
+          <option value="HUF"><p>&nbsp&nbsp🇭🇺 HUF</p></option>
+          <option value="ILS"><p>&nbsp&nbsp🇮🇱 ILS</p></option>
+          <option value="JPY"><p>&nbsp&nbsp🇯🇵 JPY</p></option>
+          <option value="MXN"><p>&nbsp&nbsp🇲🇽 MXN</p></option>
+          <option value="NOK"><p>&nbsp&nbsp🇳🇴 NOK</p></option>
+          <option value="NZD"><p>>&nbsp&nbsp🇳🇿 NZD</p></option>
+          <option value="PLN"><p>&nbsp&nbsp🇵🇱 PLN</p></option>
+          <option value="RON"><p>&nbsp&nbsp🇷🇴 RON</p></option>
+          <option value="RUB"><p>&nbsp&nbsp🇷🇺 RUB</p></option>
+          <option value="SAR"><p>&nbsp&nbsp🇸🇦 SAR</p></option>
+          <option value="SEK"><p>&nbsp&nbsp🇸🇪 SEK</p></option>
+          <option value="SGD"><p>&nbsp&nbsp🇸🇬 SGD</p></option>
+          <option value="THB"><p>&nbsp&nbsp🇹🇭 THB</p></option>
+          <option value="TRY"><p>&nbsp&nbsp🇹🇷 TRY</p></option>
+          <option value="USD" selected><p>&nbsp&nbsp🇺🇸 USD</p></option>
+
+          </select>
+
+        </div>
+<!--           <div class="circle"></div> -->
+<!--           <div class="circle2"></div> -->
+        <div class="vertical">
+
+          <ul class="left-space">
+  <!--           <li><br>&nbsp&nbspFee :</li><br> -->
+            <br><br><li>&nbsp&nbspExchange Rate :<div class="rate" id="rate">&nbsp</div></li>
+          </ul>
+        </div>
+
+        <div class="currency-2">
+          <label class="control-label" for="to_ammount">They receive</label>
+          <input type="number" id="to_ammount" placeholder="0.00" />
+          <select class="selectpicker" data-live-search="true" id="to_currency"><option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
+          <option value="AUD"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
+          <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
+          <option value="CAD"><p>&nbsp&nbsp🇨🇦 CAD</p></option>
+          <option value="CHF"><p>&nbsp&nbsp🇨🇭 CHF</p></option>
+          <option value="CNY"><p>&nbsp&nbsp🇨🇳 CNY</p></option>
+          <option value="CZK"><p>&nbsp&nbsp🇨🇿 CZK</p></option>
+          <option value="DKK"><p>&nbsp&nbsp🇩🇰 DKK</p></option>
+          <option value="EUR" selected><p>&nbsp&nbsp🇪🇺 EUR</p></option>
+          <option value="GBP"><p>&nbsp&nbsp🇬🇧 GBP</p></option>
+          <option value="HKD"><p>&nbsp&nbsp🇭🇰 HKD</p></option>
+          <option value="HRK"><p>&nbsp&nbsp🇭🇷 HRK</p></option>
+          <option value="HUF"><p>&nbsp&nbsp🇭🇺 HUF</p></option>
+          <option value="ILS"><p>&nbsp&nbsp🇮🇱 ILS</p></option>
+          <option value="JPY"><p>&nbsp&nbsp🇯🇵 JPY</p></option>
+          <option value="MXN"><p>&nbsp&nbsp🇲🇽 MXN</p></option>
+          <option value="NOK"><p>&nbsp&nbsp🇳🇴 NOK</p></option>
+          <option value="NZD"><p>&nbsp&nbsp🇳🇿 NZD</p></option>
+          <option value="PLN"><p>&nbsp&nbsp🇵🇱 PLN</p></option>
+          <option value="RON"><p>&nbsp&nbsp🇷🇴 RON</p></option>
+          <option value="RUB"><p>&nbsp&nbsp🇷🇺 RUB</p></option>
+          <option value="SAR"><p>&nbsp&nbsp🇸🇦 SAR</p></option>
+          <option value="SEK"><p>&nbsp&nbsp🇸🇪 SEK</p></option>
+          <option value="SGD"><p>&nbsp&nbsp🇸🇬 SGD</p></option>
+          <option value="THB"><p>&nbsp&nbsp🇹🇭 THB</p></option>
+          <option value="TRY"><p>&nbsp&nbsp🇹🇷 TRY</p></option>
+          <option value="USD"><p>&nbsp&nbsp🇺🇸 USD</p></option>
+          </select>
+        </div>
+        <div class="btncenter">
+            <a href="https://app.kiyanpay.com/#/ext/signup/en-GB" class="brk-btn">Convert</a>
+        </div>
+      </div>
+
   </div>
 </section>
+
+<script>
+const from_currencyEl = document.getElementById('from_currency');
+const from_ammountEl = document.getElementById('from_ammount');
+const to_currencyEl = document.getElementById('to_currency');
+const to_ammountEl = document.getElementById('to_ammount');
+const rateEl = document.getElementById('rate');
+const exchange = document.getElementById('exchange');
+
+from_currencyEl.addEventListener('change', function() {calculate ('from')});
+from_ammountEl.addEventListener('input', function() {calculate ('from')});
+to_currencyEl.addEventListener('change', function() {calculate ('to')});
+to_ammountEl.addEventListener('input', function() {calculate ('to')});
+
+function calculate(mode) {
+  const from_currency = from_currencyEl.value;
+  const to_currency = to_currencyEl.value;
+  const from_ammount = from_ammountEl.value;
+  const to_ammount = to_ammountEl.value;
+
+  const ammount_query = mode === 'from' ? `fromAmount=${from_ammount}` : `toAmount=${to_ammount}`;
+
+  fetch(`https://re0lps45ud.execute-api.eu-west-1.amazonaws.com/exchange-rate?fromCurrency=${from_currency}&toCurrency=${to_currency}&${ammount_query}`)
+    .then(res => res.json())
+    .then(res => {
+
+    rateEl.innerText = `1 ${from_currency} = ${res.exchangeRate} ${to_currency}`
+    to_ammountEl.value = (res.toAmount);
+    from_ammountEl.value = (res.fromAmount);
+  })
+}
+
+calculate();
+</script>
+
 
   <section class="container-5">
     <div class="slider">
