@@ -16,4 +16,9 @@ Rails.application.routes.draw do
   get "article3" , to: 'pages#article3'
   get "article4" , to: 'pages#article4'
   get "article5" , to: 'pages#article5'
+  get "article6" , to: 'pages#article6'
+  get "article7" , to: 'pages#article7'
+  get "article8" , to: 'pages#article8'
+  get "article9" , to: 'pages#article9'
+  get "article10" , to: 'pages#article10'
 end
