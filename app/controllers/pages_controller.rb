@@ -30,17 +30,32 @@ class PagesController < ApplicationController
   	end
 
   	def article1
-  	end 
+  	end
 
-  	def article2 
-  	end 
+  	def article2
+  	end
 
   	def article3
-  	end 
+  	end
 
   	def article4
-  	end 
+  	end
 
   	def article5
-  	end 
+  	end
+
+    def article6
+    end
+
+    def article7
+    end
+
+    def article8
+    end
+
+    def article9
+    end
+
+    def article10
+    end
 end
