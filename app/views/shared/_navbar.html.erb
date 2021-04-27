@@ -4,13 +4,13 @@
       <div class="row">
         <div class="col-12">
           <nav class="navbar navbar-expand-md navbar-light">
-            <%= link_to "/", class: "navbar-brand" do %>
+            <%=  link_to "/", class: "navbar-brand" do %>
               <%= image_tag "KP_Logo2.png" %>
             <% end %>
 
     <div class="navigationbar">
-      <a href="/">Personal</a>
-      <a href="/professional">Business</a>
+      <a rel=noopener href="/">Personal</a>
+      <a rel=noopener href="/professional">Business</a>
       <div class="animation start-home"></div>
     </div>
 
@@ -21,14 +21,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto py-4 py-md-0">
                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                  <a class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
-                  <a class="nav-link" href="#"aria-expanded="false"><%= link_to"BLOG", blog_path%></a>&nbsp &nbsp&nbsp
-                  <a class="nav-link" href="https://support.kiyanpay.com/en/"aria-expanded="false">SUPPORT</a>
+                  <a rel=noopener class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
+                  <a rel=noopener class="nav-link" href="#"aria-expanded="false"><%= link_to"BLOG", blog_path%></a>&nbsp &nbsp&nbsp
+                  <a rel=noopener class="nav-link" href="https://support.kiyanpay.com/en/"aria-expanded="false">SUPPORT</a>
                 </li>
               </ul>
 
               <div class="position-btn">
-                <div class='brk-btn'><a href="https://gate.kiyanpay.com/login">Log in</a></div>
+                <div class='brk-btn'><a rel=noopener href="https://gate.kiyanpay.com/login">Log in</a></div>
               </div>
 
             </div>
