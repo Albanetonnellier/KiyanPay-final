@@ -23,8 +23,6 @@ class PagesController < ApplicationController
 	def contact
 	end
 
-	def article
-	end
 
   	def careers
   	end

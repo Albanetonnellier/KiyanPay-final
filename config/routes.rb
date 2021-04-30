@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   get 'privacy' , to: 'pages#privacy'
   get 'cookies', to: 'pages#cookies'
   get 'contact', to: 'pages#contact'
-  get 'article', to: 'pages#article'
+  get 'stress', to: 'pages#stress'
   get 'careers', to: 'pages#careers'
   get "article1" , to: 'pages#article1'
   get "article2" , to: 'pages#article2'
