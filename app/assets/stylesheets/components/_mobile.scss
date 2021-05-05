@@ -205,6 +205,11 @@
     .section-f {
       padding-bottom: 50px;
     }
+    .title-wrapper {
+      .slide-left {
+        padding-bottom: 500px;
+      }
+    }
 
 }
 
@@ -369,6 +374,15 @@
       min-width: 800px;
       .btncenter {
         padding-left: 115px;
+      }
+    }
+
+    .title-wrapper {
+      .slide-left {
+        margin-right: 50px;
+      }
+      .right {
+        margin-left: 50px;
       }
     }
 }
@@ -706,5 +720,13 @@
       background-size: 700px 700px;
       min-height: 720px;
       min-width: 800px;
+    }
+    .title-wrapper {
+      .slide-left {
+        margin-right: 50px;
+      }
+      .right {
+        margin-left: 50px;
+      }
     }
 }

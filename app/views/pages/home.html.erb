@@ -286,9 +286,9 @@
         <div class="currency">
           <label class="control-label" for="from_ammount">You send </label>
           <input type="number" id="from_ammount" placeholder="0.00" value=1 />
-          <select name="wgtmsr" class="select" id="from_currency">
+          <select class="selectpicker countrypicker"  class="select" id="from_currency">
 
-          <option value="AED"><img src="https://i.ibb.co/S6gb5dz/AED.png" alt=""><p>&nbsp&nbsp🇦🇪 AED</p></option>
+          <option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
           <option value="AUD" class="special"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
           <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
           <option value="CAD"><p>&nbsp&nbsp🇨🇦 CAD</p></option>
@@ -314,7 +314,7 @@
           <option value="SGD"><p>&nbsp&nbsp🇸🇬 SGD</p></option>
           <option value="THB"><p>&nbsp&nbsp🇹🇭 THB</p></option>
           <option value="TRY"><p>&nbsp&nbsp🇹🇷 TRY</p></option>
-          <option value="USD" selected><p>&nbsp&nbsp🇺🇸 USD</p></option>
+          <option value="USD" selected><p>&nbsp&nbsp <div class="USD"></div> USD</p></option>
 
           </select>
 
@@ -332,7 +332,7 @@
         <div class="currency-2">
           <label class="control-label" for="to_ammount">They receive</label>
           <input type="number" id="to_ammount" placeholder="0.00" />
-          <select class="selectpicker" data-live-search="true" id="to_currency"><option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
+          <select class="selectpicker countrypicker" data-live-search="true" id="to_currency"><option value="AED"><p>&nbsp&nbsp🇦🇪 AED</p></option>
           <option value="AUD"><p>&nbsp&nbsp🇦🇺 AUD</p></option>
           <option value="BGN"><p>&nbsp&nbsp🇧🇬 BGN</p></option>
           <option value="CAD"><p>&nbsp&nbsp🇨🇦 CAD</p></option>
@@ -369,6 +369,7 @@
   </div>
 </section>
 
+
 <script>
 const from_currencyEl = document.getElementById('from_currency');
 const from_ammountEl = document.getElementById('from_ammount');
@@ -402,6 +403,124 @@ function calculate(mode) {
 
 calculate();
 </script>
+<!-- end of calculator
+ -->
+
+<!-- pop up animation  -->
+<div>
+  <section class="contentpop">
+    <div class="poka-wrapper">
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+    </div>
+    <div class="title-wrapper">
+      <h5>
+        <div class="biggert"> How We’re Keeping You Safe </div> <br> <br>
+        <div class="smallert">We’ve been talking to you, our customers, and we know that your primary concern is keeping your money safe.
+
+      If you think you’ve fallen victim to fraud then don’t hesitate to speak to our team by getting in touch on any of our social media or emailing us: support@kiyanpay.com </div>
+
+
+      </h5>
+    </div>
+  </section>
+  <section class="contentpop">
+    <div class="poka-wrapper">
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+    </div>
+    <div class="title-wrapper">
+      <h5>
+
+          <section class="section-m">
+                     <div class="title-pop">How We’re Keeping You Safe</div>
+          <div class="container">
+              <div class="slide-left">
+              <h2>How To Stay Safe Online</h2>
+              <h6>
+                Fraudsters are impersonating banks, HMRC, the police and government as well as trusted companies to get into your bank account. So here are a few things you should do before handing out your information: <br> <br>
+                1. Double-check the number or email that they’re contacting you from. It should match official emails that are displayed online or that have contacted you before. <br> <br>
+                2. Google the message that you received; chances are you aren’t the first person that they’ve tried to scam. <br> <br>
+                3. If you’re still unsure call the company directly. They’ll be able to let you know whether the message is authorised by them.
+              </h6><br><br>
+              </div>
+            <div class="right">
+                    <h2>What to do if you’ve fallen victim to fraud? </h2>
+              <h6>
+               Get in touch with the company that the scammers were impersonating. They will let you know what steps to take- you may be able to get your money back.
+                    Get in touch with your bank! If you haven’t already you should immediately get in touch with your bank. They can secure your account and will start the process to try and detect where the scam originated.
+              </h6><br><br>
+            </div>
+          </div>
+        </section>
+      </h5>
+    </div>
+  </section>
+<!--   <section class="contentpop">
+    <div class="poka-wrapper">
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+      <div class="poka-dot"></div>
+    </div>
+    <div class="title-wrapper">
+      <h5> <div class="biggert"> What to do if you’ve fallen victim to fraud? </div><br> <br>
+      <div class="smallert"> Get in touch with the company that the scammers were impersonating. They will let you know what steps to take- you may be able to get your money back.
+      Get in touch with your bank! If you haven’t already you should immediately get in touch with your bank. They can secure your account and will start the process to try and detect where the scam originated.  </div> </h5>
+    </div>
+  </section> -->
+</div>
+
+<script>
+  const pokaWrappers = [].slice.call(document.querySelectorAll(".poka-wrapper"));
+const messages = [].slice.call(document.querySelectorAll(".title-wrapper > h5"));
+
+const clearVisibleClassFromPokaWrappers = () => {
+  pokaWrappers.forEach((pokaWrapper) => {
+    if (pokaWrapper.classList.contains('visible')) {
+      pokaWrapper.classList.remove('visible')
+    }
+  });
+};
+
+const addVisibleClassToPokaWrapper = (index) => {
+  console.log('index', index);
+  clearVisibleClassFromPokaWrappers();
+  if (!pokaWrappers[index].classList.contains("visible")) {
+    pokaWrappers[index].classList.add("visible");
+  }
+};
+
+const removeVisibleClassFromPokaWrapper = () => {
+  if (pokaWrapper.classList.contains("visible")) {
+    pokaWrapper.classList.remove("visible");
+  }
+};
+
+const checkAndPlayPokaDotAnimation = () => {
+  messages.forEach((message, index) => {
+    const bounding = message.getBoundingClientRect();
+    if (bounding.top >= 0 && bounding.top <= window.innerHeight) {
+      addVisibleClassToPokaWrapper(index);
+    }
+    //   else {
+    //   removeVisibleClassFromPokaWrapper();
+    // }
+  });
+};
+
+window.addEventListener("scroll", () => {
+  requestAnimationFrame(checkAndPlayPokaDotAnimation);
+});
+
+requestAnimationFrame(checkAndPlayPokaDotAnimation);
+
+</script>
+<!-- end of pop up animation -->
 
   <section class="container-5">
     <div class="slider">
