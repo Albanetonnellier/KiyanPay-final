@@ -9,7 +9,6 @@
   }
 }
 
-
 .light-green {
   background-color: #e9f9f6;
   padding-top: 150px;
@@ -39,12 +38,9 @@
   max-height: 800px;
 }
 
-
 .section-l-inner p {
   font-size: 2rem;
 }
-
-
 
 .search_wrap{
   width: 500px;
@@ -80,7 +76,7 @@
 }
 
 .search_wrap .search_box .btn:hover{
-  background: #104138;;  
+  background: #104138;;
 }
 
 .search_wrap .search_box .btn.btn_common .fas{
@@ -92,13 +88,10 @@
   font-size: 20px;
 }
 
-
 .search_wrap.search_wrap_1 .search_box .on-page-search,
 .search_wrap.search_wrap_3 .search_box .on-page-search{
   padding-right: 80px;
 }
-
-
 
 .search_wrap.search_wrap_2 .search_box .on-page-search,
 .search_wrap.search_wrap_4 .search_box .on-page-search{
@@ -116,7 +109,6 @@
   border-radius: 50%;
 }
 
-
 input {
   width: 223px;
   height: 60px;
@@ -128,8 +120,6 @@ input {
   border-right:none;
   padding-left: 15px;
 }
-
-
 
 .circle {
   height: 10px;
@@ -150,9 +140,7 @@ input {
   border-radius: 50%;
   display: inline-block;
   z-index: -1;
-  position: absolute;
-  top: 85px;
-  left: 126px;
+
 }
 
 select {
@@ -166,21 +154,23 @@ select {
 }
 
 .container-currency {
-  padding-left: 100px;
+  margin: auto;
 }
 
 .currency {
   border: 1px solid #104138;
   border-right:none;
   border-radius: 15px;
+  width: 348.5px;
 
   label {
     position: absolute;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
-    color: #444;
+    color: #757575;
     padding-bottom: 5px;
-  } 
+    font-size: 1.5rem;
+  }
 }
 
 
@@ -189,36 +179,66 @@ select {
   border: 1px solid #104138;
   border-right:none;
   border-radius: 15px;
+  width: 348.5px;
 }
 .currency-2 {
   margin-bottom: 30px;
 
   label {
     position: absolute;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
-    color:  #444;
+    color:  #757575;
     padding-bottom: 5px;
+    font-size: 1.5rem;
+
   }
 }
 
+
+
+.currency {
+ input {
+  font-size: 2rem;
+  padding-left: 20px;
+ }
+}
+
+.currency-2 {
+  input {
+  font-size: 2rem;
+  padding-left: 20px;
+  }
+}
+
+.vertical {
+  ul {
+    #rate {
+      padding-left: 10px;
+      font-weight: bold;
+      line-height: 26pt;
+    }
+  }
+}
 .container-currency {
-  position: absolute;
-  top: 240px;
-  left: 640px;
 
 
   .brk-btn a:hover {
     color: white;
   }
+  input {
+    background-color: #e9f9f6;
+    font-weight: bold;
+    line-height: 26pt;
+  }
 }
 
-.vertical { 
-  border-left: 2px solid #104138; 
-  height: 100px; 
+.vertical {
+  border-left: 2px solid #104138;
+  height: 100px;
   margin-left: 30px
 
-} 
+}
 
  button, select, optgroup  {
     margin: 0;
