@@ -517,7 +517,8 @@
   text-align: center;
   font-weight: 100;
   color: #4C4C4F;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 120%;
 }
 .section-m h2 {
   font-size: 40px;
@@ -529,3 +530,11 @@
   text-align: center;
 }
 
+.text-pop {
+  margin: auto;
+  max-width: 800px;
+  h6 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
