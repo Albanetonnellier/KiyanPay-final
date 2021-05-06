@@ -280,6 +280,7 @@
        That's why transferring with us is easy, fast and reliable.
        We are 9x cheaper than high street banks and transfers are processed in a matter of minutes. Did we mention we have over 30 currencies?
       </p><br><br>
+      <a rel=noopener href="/currencies" class="brk-btn">SEE CURRENCIES</a>
     </div>
 
         <div class="container-currency">
@@ -456,48 +457,54 @@ calculate();
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script>
-  const pokaWrappers = [].slice.call(document.querySelectorAll(".poka-wrapper"));
-const messages = [].slice.call(document.querySelectorAll(".title-wrapper > h5"));
+  document.addEventListener('turbolinks:load', () => {
+  // Call your functions here, e.g:
+  // initSelect2();
+  // initUserTabs();
+    const pokaWrappers = [].slice.call(document.querySelectorAll(".poka-wrapper"));
+  const messages = [].slice.call(document.querySelectorAll(".title-wrapper > h5"));
 
-const clearVisibleClassFromPokaWrappers = () => {
-  pokaWrappers.forEach((pokaWrapper) => {
-    if (pokaWrapper.classList.contains('visible')) {
-      pokaWrapper.classList.remove('visible')
+  const clearVisibleClassFromPokaWrappers = () => {
+    pokaWrappers.forEach((pokaWrapper) => {
+      if (pokaWrapper.classList.contains('visible')) {
+        pokaWrapper.classList.remove('visible')
+      }
+    });
+  };
+
+  const addVisibleClassToPokaWrapper = (index) => {
+    console.log('index', index);
+    clearVisibleClassFromPokaWrappers();
+    if (!pokaWrappers[index].classList.contains("visible")) {
+      pokaWrappers[index].classList.add("visible");
     }
-  });
-};
+  };
 
-const addVisibleClassToPokaWrapper = (index) => {
-  console.log('index', index);
-  clearVisibleClassFromPokaWrappers();
-  if (!pokaWrappers[index].classList.contains("visible")) {
-    pokaWrappers[index].classList.add("visible");
-  }
-};
-
-const removeVisibleClassFromPokaWrapper = () => {
-  if (pokaWrapper.classList.contains("visible")) {
-    pokaWrapper.classList.remove("visible");
-  }
-};
-
-const checkAndPlayPokaDotAnimation = () => {
-  messages.forEach((message, index) => {
-    const bounding = message.getBoundingClientRect();
-    if (bounding.top >= 0 && bounding.top <= window.innerHeight) {
-      addVisibleClassToPokaWrapper(index);
+  const removeVisibleClassFromPokaWrapper = () => {
+    if (pokaWrapper.classList.contains("visible")) {
+      pokaWrapper.classList.remove("visible");
     }
-    //   else {
-    //   removeVisibleClassFromPokaWrapper();
-    // }
-  });
-};
+  };
 
-window.addEventListener("scroll", () => {
+  const checkAndPlayPokaDotAnimation = () => {
+    messages.forEach((message, index) => {
+      const bounding = message.getBoundingClientRect();
+      if (bounding.top >= 0 && bounding.top <= window.innerHeight) {
+        addVisibleClassToPokaWrapper(index);
+      }
+      //   else {
+      //   removeVisibleClassFromPokaWrapper();
+      // }
+    });
+  };
+
+  window.addEventListener("scroll", () => {
+    requestAnimationFrame(checkAndPlayPokaDotAnimation);
+  });
+
   requestAnimationFrame(checkAndPlayPokaDotAnimation);
-});
 
-requestAnimationFrame(checkAndPlayPokaDotAnimation);
+});
 
 </script>
 <!-- end of pop up animation -->
