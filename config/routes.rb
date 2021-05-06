@@ -21,4 +21,6 @@ Rails.application.routes.draw do
   get "article8" , to: 'pages#article8'
   get "article9" , to: 'pages#article9'
   get "article10" , to: 'pages#article10'
+  get "currencies", to: 'pages#currencies'
+  get "philosophy" , to: 'pages#philosophy'
 end
