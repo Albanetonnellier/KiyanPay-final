@@ -23,4 +23,6 @@ Rails.application.routes.draw do
   get "article10" , to: 'pages#article10'
   get "currencies", to: 'pages#currencies'
   get "philosophy" , to: 'pages#philosophy'
+  get "multi-currency-cards", to: 'pages#multi-currency-cards'
+  get "no-more-borders", to: 'pages#no-more-borders'
 end

@@ -1,0 +1,85 @@
+<%= render 'shared/navbar' %>
+
+<div class="banner-currency">
+  <img src="https://i.ibb.co/KX79m94/Untitled-Artwork-17.png" alt="">
+  <h4>Multi-Currency Cards</h4> <br><br>
+  <p>Whether you’re a frequent traveller, have an international business or family abroad it’s currently pretty difficult to store your currency in a bank account unless you want several different cards for every currency.
+  </p>
+</div>
+
+
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div class="text-area">
+        <p>That’s why we’re introducing our KiyanPay customers to multi-currency cards. That’s right you can store and spend all your different currencies all in the same place: your KiyanPay current account.</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>The best bit? We have competitive exchange rates so if you have some leftover money from your holiday budget you can switch it right back when you touchdown, all through our app and processed immediately.</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>You don’t have to be in person to spend your money either! We support online shopping through our multi-currency cards so you no longer have to pay the expensive exchange your bank is currently getting away with charging you- isn’t the international shipping already breaking your bank?</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Our cards are also great for those of you who are earning or sending large amounts of money abroad. If you’re a freelancer or small business (we love big businesses too!) and you’re being paid in a currency that isn’t your own then you no longer have to worry about charging more in order to cover the exchange rate. We’ve kept our rates low so you can take home more of your hard-earned money.</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Whether you’re selling/buying or renting a property abroad you’re going to need a way to convert your cash. With our multi-currency cards, you can send or receive money from abroad and exchange it when the rate is low (which with us it always is!)</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Happy travelling/shopping/selling!</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="button-back"><a rel=noopener href="/" class="brk-btn">BACK</a></div>
+
+<script>
+  document.addEventListener('turbolinks:load', () => {
+    (function () {
+    "use strict";
+
+    // define variables
+    var items = document.querySelectorAll(".timeline li");
+
+    // check if an element is in viewport
+    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+    function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    function callbackFunc() {
+      for (var i = 0; i < items.length; i++) {
+        if (isElementInViewport(items[i])) {
+          items[i].classList.add("in-view");
+        }
+      }
+    }
+
+    // listen for events
+    window.addEventListener("load", callbackFunc);
+    window.addEventListener("resize", callbackFunc);
+    window.addEventListener("scroll", callbackFunc);
+  })();
+});
+
+</script>

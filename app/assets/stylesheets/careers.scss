@@ -17,7 +17,7 @@
   }
   h1 {
     font-size: 68px;
-    color: #2f2f2f;;
+    color: #2f2f2f;
 
     span.text {
       padding: 0;
@@ -261,7 +261,7 @@
   display: block;
   width: 800px;
   height: 310px;
-  margin: 40px auto; 
+  margin: 40px auto;
   overflow: hidden;
   border-radius: 20px;
   transition: all 0.4s;
@@ -301,31 +301,31 @@
 
 @media screen and (min-width: 768px) {
 
-  
+
   .apply_desc{
     width: 50%;
   }
-  
-  
+
+
   .blur_back{
     width: 80%;
-    background-position: -100% 10% !important;  
+    background-position: -100% 10% !important;
   }
 }
 
 @media screen and (max-width: 768px) {
   .apply_card{
     width: 95%;
-    margin: 70px auto; 
+    margin: 70px auto;
     min-height: 350px;
     height: auto;
   }
-  
+
   .blur_back{
     width: 100%;
-    background-position: 50% 50% !important;  
+    background-position: 50% 50% !important;
   }
-  
+
   .apply_desc{
     width: 100%;
   }
