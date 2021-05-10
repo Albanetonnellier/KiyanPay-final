@@ -25,4 +25,7 @@ Rails.application.routes.draw do
   get "philosophy" , to: 'pages#philosophy'
   get "multi-currency-cards", to: 'pages#multi-currency-cards'
   get "no-more-borders", to: 'pages#no-more-borders'
+  get "social-banking" , to: 'pages#social-banking'
+  get "direct-debit" , to: 'pages#direct-debit'
+  get "fraud-protection" , to: 'pages#fraud-protection'
 end

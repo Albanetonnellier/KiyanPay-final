@@ -14,9 +14,6 @@
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline:before {
-  background-color: white;
-}
 
 .timeline ul {
   padding: 50px 0;
@@ -222,3 +219,10 @@ time {
   font-size: 20px;
 }
 
+.text-area img {
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

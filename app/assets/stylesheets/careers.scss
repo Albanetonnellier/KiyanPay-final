@@ -73,13 +73,13 @@
 }
 }
 
-.timeline {
+.timeline-career {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
 }
 
-.timeline:before {
+.timeline-career:before {
   top: 0;
   bottom: 0;
   position: absolute;
@@ -90,32 +90,32 @@
   margin-left: -1.5px;
 }
 
-.timeline > li {
+.timeline-career > li {
   margin-bottom: 20px;
   position: relative;
 }
 
-.timeline > li:before,
-.timeline > li:after {
+.timeline-career > li:before,
+.timeline-career > li:after {
   content: " ";
   display: table;
 }
 
-.timeline > li:after {
+.timeline-career > li:after {
   clear: both;
 }
 
-.timeline > li:before,
-.timeline > li:after {
+.timeline-career > li:before,
+.timeline-career > li:after {
   content: " ";
   display: table;
 }
 
-.timeline > li:after {
+.timeline-career > li:after {
   clear: both;
 }
 
-.timeline > li > .timeline-panel {
+.timeline-career > li > .timeline-panel {
   width: 46%;
   float: left;
   border: 1px solid #d4d4d4;
@@ -126,7 +126,7 @@
   box-shadow: 0 0.5px 10px rgba(0, 0, 0, 0.14);
 }
 
-.timeline > li > .timeline-panel:before {
+.timeline-career > li > .timeline-panel:before {
   position: absolute;
   top: 26px;
   right: -15px;
@@ -138,7 +138,7 @@
   content: " ";
 }
 
-.timeline > li > .timeline-panel:after {
+.timeline-career > li > .timeline-panel:after {
   position: absolute;
   top: 27px;
   right: -14px;
@@ -150,7 +150,7 @@
   content: " ";
 }
 
-.timeline > li > .timeline-badge {
+.timeline-career > li > .timeline-badge {
   color: #fff;
   width: 50px;
   height: 50px;
@@ -169,18 +169,18 @@
   border-bottom-left-radius: 50%;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline-career > li.timeline-inverted > .timeline-panel {
   float: right;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline-career > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline-career > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
