@@ -28,4 +28,7 @@ Rails.application.routes.draw do
   get "social-banking" , to: 'pages#social-banking'
   get "direct-debit" , to: 'pages#direct-debit'
   get "fraud-protection" , to: 'pages#fraud-protection'
+  get "transferring-an-overseas-pension", to: 'pages#transferring-an-overseas-pension'
+  get "how-to-sell-your-business" , to: 'pages#how-to-sell-your-business'
+  get "is-this-website-real" , to: 'pages#is-this-website-real'
 end

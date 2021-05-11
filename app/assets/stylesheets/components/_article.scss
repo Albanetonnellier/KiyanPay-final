@@ -103,15 +103,20 @@ blockquote {
 //     max-width: 800px;
 //   }
 // }
+#pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mainpicture {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 .articles {
@@ -120,11 +125,6 @@ blockquote {
   a:hover {
     color: black;
   }
- img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
- }
  h2 {
   font-size: 3rem;
  }
