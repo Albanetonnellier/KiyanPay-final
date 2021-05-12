@@ -1,0 +1,118 @@
+<%= render 'shared/navbar' %>
+
+<div class="banner-currency">
+  <img src="https://i.ibb.co/XpWTff5/Untitled-Artwork-5.png" alt="">
+  <h4>Using Your Card Securely:</h4> <br><br>
+  <p>You want to make sure that you’re using your card securely; scammers aren’t just targeting victims online.
+  </p>
+</div>
+
+<div class="text-center">
+  <h2>Be Wary Of:</h2>
+</div>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div class="text-area">
+        <h6>Quiet Spies.</h6>
+        <p>If you’re using a cash machine or a card reader, then be wary of anyone standing close enough to see what you’re entering. Make sure to cover the pin pad as you enter your pin. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Stranger Danger.</h6>
+        <p>If a stranger is feeling generous enough to approach you and offer aid, you should be vigilant. Put away your card and leave; they are trying to see your pin and attempt to steal your card afterwards. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Friendly Servers</h6>
+        <p>Do not let anyone take your card away from you; there is enough information on it for it to be used without your consent. They could photograph it or memorise the details and use them later on. This type of scam is most common amongst serving staff as we generally feel comfortable giving them our cards.  </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="text-center">
+  <h2>How To Protect Yourself:</h2>
+</div>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div class="text-area">
+        <h6>Use an indoor ATM</h6>
+        <p>Where possible, you should aim to use an ATM inside, scammers are less likely to follow you inside, and it is harder to remain inconspicuous.</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Don’t Disclose Your Pin</h6>
+        <p>Your card and pin are incredibly personal, so you shouldn’t share them with anyone. No retailer, banker or authority figure will ever need your details, so don’t share them. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Use Contactless</h6>
+        <p>Contactless payment and phone payment apps are great for security as you don’t need to enter your pin; where possible, resort to these methods. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Never Write Down Your Details</h6>
+        <p>Never write down your pin, as it can be used to get your money. There aren’t many four-letter passcodes, so scammers are likely to recognise the number for what it is if they come across it. If you forget your pin, you can change it in your app, so it isn’t a big deal if you forget it.  </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>Change Your Pin</h6>
+        <p>Like we mentioned, it isn’t hard to change your pin, so if you think someone has found it/ you’ve shared it with someone. Then all you have to do is pick a new one in your KiyanPay app.  </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="text-center">
+  <h2>Stay safe! </h2>
+</div>
+
+<div class="button-back"><a rel=noopener href="/fraud-protection" class="brk-btn">BACK</a></div>
+
+<script>
+  document.addEventListener('turbolinks:load', () => {
+    (function () {
+    "use strict";
+
+    // define variables
+    var items = document.querySelectorAll(".timeline li");
+
+    // check if an element is in viewport
+    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+    function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    function callbackFunc() {
+      for (var i = 0; i < items.length; i++) {
+        if (isElementInViewport(items[i])) {
+          items[i].classList.add("in-view");
+        }
+      }
+    }
+
+    // listen for events
+    window.addEventListener("load", callbackFunc);
+    window.addEventListener("resize", callbackFunc);
+    window.addEventListener("scroll", callbackFunc);
+  })();
+});
+
+</script>

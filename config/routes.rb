@@ -31,4 +31,8 @@ Rails.application.routes.draw do
   get "transferring-an-overseas-pension", to: 'pages#transferring-an-overseas-pension'
   get "how-to-sell-your-business" , to: 'pages#how-to-sell-your-business'
   get "is-this-website-real" , to: 'pages#is-this-website-real'
+  get "scam-calls", to: 'pages#scam-calls'
+  get "scam-messages", to: 'pages#scam-messages'
+  get "password-protection" , to: 'pages#password-protection'
+  get "using-your-card-securely", to: 'pages#using-your-card-securely'
 end
