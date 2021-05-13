@@ -218,6 +218,22 @@
         padding-top: 40px;
       }
     }
+    .banner-currency {
+      p {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 100px;
+        color: #4C4C4F;
+      }
+      img {
+        padding-top: 20px;
+      }
+      h4 {
+        font-size: 45px;
+      }
+    }
 
 }
 
@@ -396,6 +412,23 @@
     .title-wrapper {
       padding-right: 100px;
     }
+    .banner-currency {
+      p {
+        max-width: 750px;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 100px;
+        color: #4C4C4F;
+      }
+      img {
+        max-width: 700px;
+        max-height: 450px;
+        padding-top: 50px;
+      }
+      h4 {
+        font-size: 55px;
+      }
+    }
 }
 
         /* Medium Devices, Desktops */
@@ -562,6 +595,23 @@
     .title-wrapper {
       padding-right: 100px;
     }
+    .banner-currency {
+      p {
+        max-width: 750px;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 100px;
+        color: #4C4C4F;
+      }
+      img {
+        max-width: 700px;
+        max-height: 450px;
+        padding-top: 50px;
+      }
+      h4 {
+        font-size: 65px;
+      }
+    }
 }
 
         /* Large Devices, Wide Screens */
@@ -660,7 +710,7 @@
       p {
         position: relative;
         margin: 3rem 0 0;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         font-size: 2rem;
         padding-right: 10px;
       }
@@ -680,7 +730,7 @@
       p {
         position: relative;
         margin: 3rem 0 0;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
         font-size: 2rem;
         padding-right: 10px;
       }

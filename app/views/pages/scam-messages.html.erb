@@ -1,0 +1,147 @@
+<%= render 'shared/navbar' %>
+
+<div class="banner-currency">
+  <img src="https://i.ibb.co/XpWTff5/Untitled-Artwork-5.png" alt="">
+  <h4>Scam Texts and Emails</h4> <br><br>
+  <p>Here are a few ways to protect yourself and your money by distinguishing between real and fake texts or emails.
+  </p>
+</div>
+
+<div class="text-center">
+  <h2>To Look Out For:</h2>
+</div>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div class="text-area">
+        <h6>1. They want financial or personal information.</h6>
+        <p>No genuine company, especially financial institutions like a bank, would ever message you for your banking or personal details. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>2. They are an unexpected sender. </h6>
+        <p>If you don't know who sent the message and you're not expecting to be contacted, it will likely be a scam.  </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>3. They need you to act now. </h6>
+        <p>A genuine message (or any correspondence) will never be urgent. If it is not reasonable or calm, then your bank will not have sent it. Scams are likely to consist of warning messages, fraud threats or account problems. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>4. They're greeting you weirdly.</h6>
+        <p>If they're not using your name, account number or your postcode, then they're probably not genuine. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>5. They've made a lot of spelling mistakes. </h6>
+        <p>Scam texts and email often look like they could use a run-through Grammarly! Any spelling mistakes or odd wording could be a red flag!</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>6. Their email address is inconsistent.</h6>
+        <p>If words like "mail" are randomly placed in the email, they may be trying to imitate a legitimate email address. Our support email is support@kiyanpay.com, but a scammer could email you from support@mail.kiyanpay.com </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>7. They're asking you to move your money.</h6>
+        <p>No company will ever text or email you to make a 'test' payment or move your money to a new account. This includes safe/secure/holding accounts. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <h6>8. They're sending you a false invoice.</h6>
+        <p>Double-check payment details on your invoices, as scammers can hack into systems and change the account details. If you send the money to the wrong account, it's tough to get it back. </p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="text-center">
+  <h2>What should I do?</h2>
+</div>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div class="text-area">
+        <p>Never reply. If it seems like an odd message, don't reply. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Do not open any links. They can download a virus or tracker onto your computer. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Call the company. Call the company on a number that comes from their official site.</p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Double-check before payment. Confirm the details of your payee before paying. Call the business on a trusted number if needed. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Call your bank. They can check if the number is genuine. </p>
+      </div>
+    </li>
+    <li>
+      <div class="text-area">
+        <p>Forward the message. Please email our team at support@kiyanpay.com</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="text-center">
+  <h2>Stay safe, and remember to double-check! Your bank is always happy to take your call. </h2>
+</div>
+
+<div class="button-back"><a rel=noopener href="/fraud-protection" class="brk-btn">BACK</a></div>
+<script>
+  document.addEventListener('turbolinks:load', () => {
+    (function () {
+    "use strict";
+
+    // define variables
+    var items = document.querySelectorAll(".timeline li");
+
+    // check if an element is in viewport
+    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+    function isElementInViewport(el) {
+      var rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    function callbackFunc() {
+      for (var i = 0; i < items.length; i++) {
+        if (isElementInViewport(items[i])) {
+          items[i].classList.add("in-view");
+        }
+      }
+    }
+
+    // listen for events
+    window.addEventListener("load", callbackFunc);
+    window.addEventListener("resize", callbackFunc);
+    window.addEventListener("scroll", callbackFunc);
+  })();
+});
+
+</script>

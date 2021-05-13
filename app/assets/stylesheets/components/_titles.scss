@@ -1,0 +1,97 @@
+
+.text-center {
+  margin: auto;
+}
+
+
+@media only screen and (max-width : 500px) {
+  .text-center h2 {
+    font-size: 35px;
+  }
+  .text-center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slide-left h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .text-area h6 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .text-center h2 {
+    font-size: 45px;
+  }
+  .text-center {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .slide-left h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .text-area h6 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .text-center h2 {
+    font-size: 55px;
+  }
+  .text-center {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .slide-left h3 {
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .text-area h6 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .text-center h2 {
+    font-size: 65px;
+  }
+  .text-center {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    max-width: 1250px;
+  }
+  .slide-left h3 {
+    font-size: 65px;
+    font-weight: bold;
+  }
+  .text-area h6 {
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+}
+
+.text-highlight:hover {
+  color: black !important;
+}
+
+.timeline a:hover {
+  color: black;
+}
+
