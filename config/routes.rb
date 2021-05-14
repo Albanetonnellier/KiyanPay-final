@@ -35,4 +35,6 @@ Rails.application.routes.draw do
   get "scam-messages", to: 'pages#scam-messages'
   get "password-protection" , to: 'pages#password-protection'
   get "using-your-card-securely", to: 'pages#using-your-card-securely'
+  get "self-employed-pensions", to: 'pages#self-employed-pensions'
+  get "retire-in-portugual", to: 'pages#retire-in-portugual'
 end
