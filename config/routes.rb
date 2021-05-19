@@ -37,4 +37,5 @@ Rails.application.routes.draw do
   get "using-your-card-securely", to: 'pages#using-your-card-securely'
   get "self-employed-pensions", to: 'pages#self-employed-pensions'
   get "retire-in-portugual", to: 'pages#retire-in-portugual'
+  get "money-and-mental-health", to: 'pages#money-and-mental-health'
 end
