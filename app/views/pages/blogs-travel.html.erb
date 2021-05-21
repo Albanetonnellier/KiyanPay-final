@@ -60,13 +60,15 @@
 
 
     <section class="rectangle-blog">
-    <div class="button-blog">
-      <a rel=noopener href="/">ALL</a>
-    </div>
+
+      <a rel=noopener href="/contact">ALL</a>
+
 
       <a rel=noopener href="/blogs-small-business">SMALL BUSINESS</a>
 
+    <div class="button-sbusiness">
       <a rel=noopener href="/blogs-travel">TRAVEL</a>
+    </div>
       <a rel=noopener href="/blogs-personal-finance">PERSONAL FINANCE</a>
     </section>
 
@@ -346,6 +348,7 @@
     setVideoClasses();
   }
 
+
   function setVideoClasses() {
     var input = document.getElementById('video-caroussel').querySelector('input:checked'),
         items = document.getElementsByClassName('video-carrousel__item'),
@@ -363,6 +366,7 @@
 
     setActiveDot();
   }
+
 
   function setLeftside(input, moreThenFour) {
     if(getSibling(input, 1, 'prev') === null) {
@@ -399,6 +403,8 @@
       }
     }
   }
+
+
 
   function getSibling(elem, num, target) {
     var tempElem = elem;
@@ -473,9 +479,7 @@
     }
 
     document.getElementById(thumb.getAttribute('data-id')).classList.add('active');
-
   }
 
 });
 </script>
-

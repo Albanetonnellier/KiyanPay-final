@@ -38,4 +38,7 @@ Rails.application.routes.draw do
   get "self-employed-pensions", to: 'pages#self-employed-pensions'
   get "retire-in-portugual", to: 'pages#retire-in-portugual'
   get "money-and-mental-health", to: 'pages#money-and-mental-health'
+  get "blogs-small-business" , to: 'pages#blogs-small-business'
+  get "blogs-travel" , to: 'pages#blogs-travel'
+  get 'blogs-personal-finance', to: 'pages#blogs-personal-finance'
 end
