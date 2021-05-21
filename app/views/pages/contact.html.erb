@@ -56,19 +56,32 @@
     </div>
 
     <div class="subhead"> <%= request.location.city %> - <%= Date.today.strftime("%a, %e %b %Y") =%> - Six Pages</div>
+
+
 </div>
 
+ <div class="dropdown">
+  <button class="dropbtn">ALL</button>
+  <div class="dropdown-content">
+    <a href="/blogs-small-business">SMALL BUSINESS</a>
+    <a href="/blogs-travel">TRAVEL</a>
+    <a href="/blogs-personal-finance">PERSONAL FINANCE</a>
+  </div>
+</div>
 
-    <section class="rectangle-blog">
+  <section class="rectangle-blog">
+
     <div class="button-blog">
-      <a rel=noopener href="/">ALL</a>
+       <a rel=noopener href="/">ALL</a>
     </div>
+
 
       <a rel=noopener href="/blogs-small-business">SMALL BUSINESS</a>
 
       <a rel=noopener href="/blogs-travel">TRAVEL</a>
       <a rel=noopener href="/blogs-personal-finance">PERSONAL FINANCE</a>
-    </section>
+
+  </section>
 
 <section class="section-big-blog">
   <div class="container-small">

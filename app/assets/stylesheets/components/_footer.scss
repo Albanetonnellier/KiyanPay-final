@@ -1,3 +1,20 @@
+
+@media (max-width: 700px) {
+  .title-footer {
+    text-align: center;
+  }
+  .footer-links {
+    text-align: center;
+  }
+  .text-justify img {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .text-justify {
+    padding-left: 80px;
+  }
+}
+
 .first-footer {
   background-color: #F2F2F2;
   padding:45px 0 20px;
