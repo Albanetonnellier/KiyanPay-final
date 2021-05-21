@@ -1,9 +1,76 @@
   /* Extra Small Devices, Phones */
 @media only screen and (max-width : 500px) {
+    /* Dropdown Button */
+    .rectangle-blog {
+      display: none;
+    }
+
+        /* Style The Dropdown Button */
+    .dropbtn {
+      background-color: #2F2F2F;
+      color:  #f9f9f9;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      width: 200px;
+      height: 40px;
+      border-radius: 25px;
+      margin-top: 50px;
+      position: absolute;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 23%;
+      padding-bottom: -2px;
+      text-align: center;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 15px;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #2F2F2F;
+    }
 }
 
         /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+  .rectangle-blog {
+    display: none;
+  }
+
 .rectangle-blog {
     margin: auto;
     width: 802px;
@@ -72,6 +139,14 @@
 
         /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+  .dropbtn {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
 .rectangle-blog {
     margin: auto;
     width: 802px;
@@ -140,6 +215,14 @@
 
         /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+  .dropbtn {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
 .rectangle-blog {
     margin: auto;
     width: 802px;
