@@ -41,4 +41,6 @@ Rails.application.routes.draw do
   get "blogs-small-business" , to: 'pages#blogs-small-business'
   get "blogs-travel" , to: 'pages#blogs-travel'
   get 'blogs-personal-finance', to: 'pages#blogs-personal-finance'
+  get 'blogs-all', to: 'pages#blogs-all'
+  get 'where-to-visit-post-covid', to: 'pages#where-to-visit-post-covid.html'
 end
