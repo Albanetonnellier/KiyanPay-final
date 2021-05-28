@@ -1,2 +1,165 @@
+<%= render 'shared/navbar' %>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Calculator section  -->
+<section class="section-f">
+  <div class="container">
+    <div class="slide-left">
+      <h1>Money Transfers</h1><br>
+      <p>
+       We're committed to breaking down borders.
+       That's why transferring with us is easy, fast and reliable.
+       We are 9x cheaper than high street banks and transfers are processed in a matter of minutes. Did we mention we have over 30 currencies?
+      </p><br><br>
+      <a rel=noopener href="/currencies" class="brk-btn">CHECK OUR CURRENCIES</a>
+    </div>
+
+        <div class="container-currency">
+        <div class="currency">
+          <label class="control-label" for="from_ammount">You send </label>
+          <input type="number" id="from_ammount" placeholder="0.00" value=1 />
+
+
+          <ul  id='ddlDemoDropdown' class="list-unstyled" style="list-style: none;">
+
+              <li data-live-search="true" id="to_currency" class="init" data-value="-1">SELECT</li>
+              <li value="AED" class="AED"><p>&nbsp&nbsp AED</p></li>
+              <li value="BGN" class="BGN"><p>&nbsp&nbsp BGN</p></li>
+              <li value="AUD" class="AUD"><p>&nbsp&nbsp AUD</p></li>
+              <li value="CAD" class="CAD"><p>&nbsp&nbsp CAD</p></li>
+              <li value="CHF" class="CHF"><p>&nbsp&nbsp CHF</p></li>
+              <li value="CNY" class="CNY"><p>&nbsp&nbsp CNY</p></li>
+              <li value="CZK" class="CZK"><p>&nbsp&nbsp CZK</p></li>
+              <li value="DKK" class="DKK"><p>&nbsp&nbsp DKK</p></li>
+              <li value="EUR" class="EUR"><p>&nbsp&nbsp EUR</p></li>
+              <li value="GBP" class="GBP"><p>&nbsp&nbsp GBP</p></li>
+              <li value="HKD" class="HKD"><p>&nbsp&nbsp HKD</p></li>
+              <li value="HRK" class="HRK"><p>&nbsp&nbsp HRK</p></li>
+              <li value="HUF" class="HUF"><p>&nbsp&nbsp HUF</p></li>
+              <li value="ILS" class="ILS"><p>&nbsp&nbsp ILS</p></li>
+              <li value="JPY" class="JPY"><p>&nbsp&nbsp JPY</p></li>
+              <li value="MXN" class="MXN"><p>&nbsp&nbsp MXN</p></li>
+              <li value="NOK" class="NOK"><p>&nbsp&nbsp NOK</p></li>
+              <li value="NZD" class="NZD"><p>&nbsp&nbsp NZD</p></li>
+              <li value="PLN" class="PLN"><p>&nbsp&nbsp PLN</p></li>
+              <li value="RON" class="RON"><p>&nbsp&nbsp RON</p></li>
+              <li value="RUB" class="RUB"><p>&nbsp&nbsp RUB</p></li>
+              <li value="SAR" class="SAR"><p>&nbsp&nbsp SAR</p></li>
+              <li value="SEK" class="SEK"><p>&nbsp&nbsp SEK</p></li>
+              <li value="SGD" class="SGD"><p>&nbsp&nbsp SGD</p></li>
+              <li value="THB" class="THB"><p>&nbsp&nbsp THB</p></li>
+              <li value="TRY" class="TRY"><p>&nbsp&nbsp TRY</p></li>
+              <li value="USD" class="USD"><p>&nbsp&nbsp USD</p></li>
+          </ul>
+
+        </div>
+<!--           <div class="circle"></div> -->
+<!--           <div class="circle2"></div> -->
+        <div class="vertical">
+
+          <ul class="left-space">
+  <!--           <li><br>&nbsp&nbspFee :</li><br> -->
+            <br><br><li>&nbsp&nbspExchange Rate :<div class="rate" id="rate">&nbsp</div></li>
+          </ul>
+        </div>
+
+        <div class="currency-2">
+          <label class="control-label" for="to_ammount">They receive</label>
+          <input type="number" id="to_ammount" placeholder="0.00" />
+
+          <ul  id='ddlDemoDropdown' class="list-unstyled" style="list-style: none;">
+
+              <li data-live-search="true" id="to_currency" class="init" data-value="-1">SELECT</li>
+              <li value="AED" class="AED"><p>&nbsp&nbsp AED</p></li>
+              <li value="BGN" class="BGN"><p>&nbsp&nbsp BGN</p></li>
+              <li value="AUD" class="AUD"><p>&nbsp&nbsp AUD</p></li>
+              <li value="CAD" class="CAD"><p>&nbsp&nbsp CAD</p></li>
+              <li value="CHF" class="CHF"><p>&nbsp&nbsp CHF</p></li>
+              <li value="CNY" class="CNY"><p>&nbsp&nbsp CNY</p></li>
+              <li value="CZK" class="CZK"><p>&nbsp&nbsp CZK</p></li>
+              <li value="DKK" class="DKK"><p>&nbsp&nbsp DKK</p></li>
+              <li value="EUR" class="EUR"><p>&nbsp&nbsp EUR</p></li>
+              <li value="GBP" class="GBP"><p>&nbsp&nbsp GBP</p></li>
+              <li value="HKD" class="HKD"><p>&nbsp&nbsp HKD</p></li>
+              <li value="HRK" class="HRK"><p>&nbsp&nbsp HRK</p></li>
+              <li value="HUF" class="HUF"><p>&nbsp&nbsp HUF</p></li>
+              <li value="ILS" class="ILS"><p>&nbsp&nbsp ILS</p></li>
+              <li value="JPY" class="JPY"><p>&nbsp&nbsp JPY</p></li>
+              <li value="MXN" class="MXN"><p>&nbsp&nbsp MXN</p></li>
+              <li value="NOK" class="NOK"><p>&nbsp&nbsp NOK</p></li>
+              <li value="NZD" class="NZD"><p>&nbsp&nbsp NZD</p></li>
+              <li value="PLN" class="PLN"><p>&nbsp&nbsp PLN</p></li>
+              <li value="RON" class="RON"><p>&nbsp&nbsp RON</p></li>
+              <li value="RUB" class="RUB"><p>&nbsp&nbsp RUB</p></li>
+              <li value="SAR" class="SAR"><p>&nbsp&nbsp SAR</p></li>
+              <li value="SEK" class="SEK"><p>&nbsp&nbsp SEK</p></li>
+              <li value="SGD" class="SGD"><p>&nbsp&nbsp SGD</p></li>
+              <li value="THB" class="THB"><p>&nbsp&nbsp THB</p></li>
+              <li value="TRY" class="TRY"><p>&nbsp&nbsp TRY</p></li>
+              <li value="USD" class="USD"><p>&nbsp&nbsp USD</p></li>
+          </ul>
+
+          </select>
+        </div>
+        <div class="btncenter">
+            <a href="https://app.kiyanpay.com/#/ext/signup/en-GB" class="brk-btn">Convert</a>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+
+<script>
+const from_currencyEl = document.getElementById('from_currency');
+const from_ammountEl = document.getElementById('from_ammount');
+const to_currencyEl = document.getElementById('to_currency');
+const to_ammountEl = document.getElementById('to_ammount');
+const rateEl = document.getElementById('rate');
+const exchange = document.getElementById('exchange');
+
+from_currencyEl.addEventListener('change', function() {calculate ('from')});
+from_ammountEl.addEventListener('input', function() {calculate ('from')});
+to_currencyEl.addEventListener('change', function() {calculate ('to')});
+to_ammountEl.addEventListener('input', function() {calculate ('to')});
+
+function calculate(mode) {
+  const from_currency = from_currencyEl.value;
+  const to_currency = to_currencyEl.value;
+  const from_ammount = from_ammountEl.value;
+  const to_ammount = to_ammountEl.value;
+
+  const ammount_query = mode === 'from' ? `fromAmount=${from_ammount}` : `toAmount=${to_ammount}`;
+
+  fetch(`https://re0lps45ud.execute-api.eu-west-1.amazonaws.com/exchange-rate?fromCurrency=${from_currency}&toCurrency=${to_currency}&${ammount_query}`)
+    .then(res => res.json())
+    .then(res => {
+
+    rateEl.innerText = `1 ${from_currency} = ${res.exchangeRate} ${to_currency}`
+    to_ammountEl.value = (res.toAmount);
+    from_ammountEl.value = (res.fromAmount);
+  })
+}
+
+calculate();
+</script>
+<!-- end of calculator
+ -->
+
+
+
+<script>
+  $("ul").on("click", ".init", function() {
+    $(this).closest("ul").children('li:not(.init)').toggle();
+});
+
+var allOptions = $("ul").children('li:not(.init)');
+$("ul").on("click", "li:not(.init)", function() {
+    allOptions.removeClass('selected');
+    $(this).addClass('selected');
+    $("ul").children('.init').html($(this).html());
+    allOptions.toggle();
+});
+
+</script>
 

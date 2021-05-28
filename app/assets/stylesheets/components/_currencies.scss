@@ -54,3 +54,234 @@
   }
 }
 
+
+/* HTML5 display-role reset for older browsers */
+
+.currency  {
+  ul {
+    height: 62px;
+    width: 120px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #104138;
+    color: white;
+    border: 8px solid #104138;
+}
+
+
+
+ul li { padding-top: 15px;
+p {
+  padding-left: 35px;
+}  }
+ul li:not(.init) { float: left; width: 130px; display: none; background: white; height: 60px; overflow-x: hidden; overflow-y:auto; text-align: justify; }
+ul li:not(.init):hover, ul li.selected:not(.init) { background: #09f; }
+li.init { cursor: pointer; }
+  li.init {
+
+    p {
+      color: white;
+      margin: auto;
+    }
+  }
+a#submit { color: white; }
+
+}
+
+.currency-2 {
+  ul {
+    height: 62px;
+    width: 120px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #104138;
+    color: white;
+    border: 8px solid #104138;
+}
+
+
+
+ul li { padding-top: 15px;
+p {
+  padding-left: 35px;
+}  }
+ul li:not(.init) { float: left; width: 130px; display: none; background: white; height: 60px; overflow-x: hidden; overflow-y:auto; text-align: justify; }
+ul li:not(.init):hover, ul li.selected:not(.init) { background: #09f; }
+li.init { cursor: pointer; }
+  li.init {
+
+    p {
+      color: white;
+      margin: auto;
+    }
+  }
+a#submit { color: white; }
+}
+
+ul#ddlDemoDropdown li.AUD {
+    background:url('https://i.ibb.co/5hGqnQM/australia.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.AED {
+    margin-top: 25px;
+    background:url('https://i.ibb.co/ZVZZTQ2/united-arab-emirates.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.BGN {
+    background:url('https://i.ibb.co/bND0Bd9/bulgaria.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.CAD {
+    background:url('https://i.ibb.co/qM34GXm/canada.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.CHF {
+    background:url('https://i.ibb.co/Fh2Fdxg/switzerland.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.CNY {
+    background:url('https://i.ibb.co/cJ3pb5F/china.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.CZK {
+    background:url('https://i.ibb.co/m6zrYdx/czech-republic.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.DKK {
+    background:url('https://i.ibb.co/58r0ZMW/denmark.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.EUR {
+    background:url('https://i.ibb.co/84jGxHc/european-union.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.GBP {
+    background:url('https://i.ibb.co/hMKddv9/united-kingdom.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.HKD {
+    background:url('https://i.ibb.co/p3s9BbC/hong-kong.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.HRK {
+    background:url('https://i.ibb.co/T1d8MGF/croatia.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.HUF {
+    background:url('https://i.ibb.co/5kMTfx4/hungary.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.ILS {
+    background:url('https://i.ibb.co/b2NTRm8/israel.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.JPY {
+    background:url('https://i.ibb.co/drHXLT1/japan.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.MXN {
+    background:url('https://i.ibb.co/1ftR2t1/mexico.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.NOK {
+    background:url('https://i.ibb.co/zF649Jg/norway.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.NZD {
+    background:url('https://i.ibb.co/Yjh7r44/new-zealand.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.PLN {
+    background:url('https://i.ibb.co/pbLZkQg/poland.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.RON {
+    background:url('https://i.ibb.co/DrkYcwj/romania.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.RUB {
+    background:url('https://i.ibb.co/GFb0cDp/russia.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.SAR {
+    background:url('https://i.ibb.co/TBnjbKz/saudi-arabia.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.SEK {
+    background:url('https://i.ibb.co/GCVjpyS/sweden.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.SGD {
+    background:url('https://i.ibb.co/RDkdW6q/singapore.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.THB {
+    background:url('https://i.ibb.co/phZQrrs/thailand.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.TRY {
+    background:url('https://i.ibb.co/PwFS3Xm/turkey.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+ul#ddlDemoDropdown li.USD {
+    background:url('https://i.ibb.co/MDd6B1m/united-states.png') 15px 4px no-repeat;
+    background-size: 30px 30px;
+    background-color: white;
+    padding-left: 15px;
+}
+
+
+
+
