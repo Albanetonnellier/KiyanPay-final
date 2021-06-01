@@ -43,4 +43,5 @@ Rails.application.routes.draw do
   get 'blogs-personal-finance', to: 'pages#blogs-personal-finance'
   get 'blogs-all', to: 'pages#blogs-all'
   get 'where-to-visit-post-covid', to: 'pages#where-to-visit-post-covid.html'
+  get 'our-fees', to: 'pages#our-fees'
 end

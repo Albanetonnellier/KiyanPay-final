@@ -681,8 +681,8 @@
         padding-top: 150px;
     }
     .text-wrapper {
-        padding-right: 60px;
-        padding-left: 30px;
+        padding-right: 50px;
+        padding-left: 100px;
         padding-bottom: 30px;
         padding-top: 60px;
     }
@@ -756,6 +756,212 @@
         top: 90px;
         left: 0;
         float: left;
+        padding-left: 50px;
+        padding: 20px;
+        max-width: 300px;
+    }
+    .card1 .details {
+        margin-bottom: 40px;
+    }
+    .card3 .details {
+        margin-bottom: 50px;
+    }
+    article {
+      h1 {
+         font-size: 6em;
+      }
+      img {
+        max-height: 750px;
+        max-width: 1000px;
+      }
+    }
+    .container-currency {
+      padding-top: 210px;
+      padding-left: 215px;
+      position: center;
+      background-image: url("https://i.ibb.co/6sHkXxX/Untitled-Artwork-2.png");
+      background-repeat: no-repeat;
+      background-position: center 30px;
+      background-size: 700px 700px;
+      min-height: 720px;
+      min-width: 800px;
+    }
+    .title-wrapper {
+      .left {
+        margin-right: 50px;
+        padding-top: 70px;
+
+      }
+      .right {
+        margin-left: 50px;
+        padding-bottom: 70px;
+
+      }
+    }
+
+    .text-pop {
+      padding-top: 40px;
+    }
+
+    .title-pop {
+      padding-top: 20px;
+    }
+
+
+    .section-m {
+      .title-pop {
+        padding-top: 100px;
+      }
+    }
+
+    .currencies-show {
+      width: 90%;
+    }
+}
+
+        /* Large Devices, Wide Screens */
+@media only screen and (min-width : 2200px) {
+    .section-a .text-down {
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+
+    .container-green {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    .section-a .text-semidown {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    .section-m .slide-left {
+        padding-left: 20px;
+        padding-top: 180px;
+    }
+    .section-a .slide-left {
+        padding-left: 20px;
+    }
+
+    .right-side {
+        padding-top: 80px;
+    }
+
+    .section-t .slide-left {
+        padding-left: 20px;
+        padding-top: 180px;
+    }
+
+    .section-f {
+        padding-bottom: 100px;
+    }
+
+    .section-f .slide-left {
+        padding-left: 20px;
+        padding-top: 100px;
+    }
+
+    .section-x {
+        margin: 2rem 0;
+        padding-top: 60px;
+    }
+    .section-c {
+        margin: 2rem 0;
+        padding-top: 80px;
+    }
+    .container-end {
+        .padd {
+            padding-top: 80px;
+        }
+        .paddd {
+            padding-bottom: 80px;
+        }
+        h1 {
+            padding-top: 150px;
+        }
+    }
+
+    .mid-title h2 {
+        padding-top: 150px;
+    }
+    .text-wrapper {
+        padding-right: 600px;
+        padding-left: 650px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .text-wrapper h2 {
+        padding-left: 15px;
+    }
+
+    .right-s {
+        padding-bottom: 250px;
+        padding-right: 80px;
+    }
+
+    .section-v .container-small {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        padding-top: 30px;
+        line-height: 1;
+        margin: 0;
+        font-size: 5rem;
+      }
+      p {
+        position: relative;
+        margin: 3rem 0 0;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        padding-right: 10px;
+      }
+    }
+    .section-v .container-small-l {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        padding-top: 30px;
+        line-height: 1;
+        margin: 0;
+        font-size: 5rem;
+      }
+      p {
+        position: relative;
+        margin: 3rem 0 0;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        padding-right: 10px;
+      }
+    }
+    .section-v .slide-left {
+      padding-left: 20px;
+    }
+
+    .cardsh {
+      padding-top: 100px;
+    }
+
+    .displaynone br {
+      display: none;
+    }
+
+    .text-content {
+        padding-left: 350px;
+    }
+    .sticky {
+        //position: absolute;
+        position: sticky;
+        top: 90px;
+        left: 0;
+        float: left;
+        padding-left: 50px;
         padding: 20px;
         max-width: 300px;
     }
