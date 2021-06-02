@@ -44,4 +44,9 @@ Rails.application.routes.draw do
   get 'blogs-all', to: 'pages#blogs-all'
   get 'where-to-visit-post-covid', to: 'pages#where-to-visit-post-covid.html'
   get 'our-fees', to: 'pages#our-fees'
+  get 'so-you-want-to-save', to: 'pages#so-you-want-to-save'
+  get 'travel-safety-recording-devices', to: 'pages#travel-safety-recording-devices'
+  get 'get-funding-for-your-startup', to: 'pages#get-funding-for-your-startup'
+  get 'startups-preparing-for-the-worst', to: 'pages#startups-preparing-for-the-worst'
+  get 'do-i-really-need-a-loan', to: 'pages#do-i-really-need-a-loan'
 end
