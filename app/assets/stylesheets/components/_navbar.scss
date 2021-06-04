@@ -22,6 +22,13 @@ a {
 	background-color: white;
 }
 
+.greybold {
+  color: #616161;
+}
+
+.greybold:hover {
+  color: black;
+}
 
 .start-header.scroll-on {
 	// box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
