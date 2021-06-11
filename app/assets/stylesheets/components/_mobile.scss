@@ -240,8 +240,23 @@
         /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .section-a .text-down {
-        padding-top: 200px;
+        padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .contentpop {
+      padding-top: 80px !important;
+    }
+
+    .section-f {
+      .slide-left {
+        padding-top: 5px;
+      }
+    }
+    .vertical {
+      ul {
+        position: absolute;
+      }
     }
 
     .container-green {
@@ -255,12 +270,10 @@
 
     .section-m .slide-left {
         padding-left: 20px;
-        padding-top: 180px;
     }
 
     .section-t .slide-left {
         padding-left: 20px;
-        padding-top: 180px;
     }
 
     .section-f {
@@ -286,13 +299,20 @@
 
     .section-x {
         margin: 2rem 0;
-        padding-top: 60px;
     }
 
 
     .section-c {
         margin: 2rem 0;
-        padding-top: 80px;
+        padding-top: 30px;
+    }
+
+    .container-end {
+      .section-a {
+        .container {
+          padding-bottom: 20px;
+        }
+      }
     }
 
     .container-end {
@@ -301,9 +321,6 @@
         }
         .paddd {
             padding-bottom: 80px;
-        }
-        h1 {
-            padding-top: 150px;
         }
     }
 
@@ -320,6 +337,12 @@
 
     .text-wrapper h2 {
         padding-left: 15px;
+    }
+
+    .section-a {
+      .right-s {
+        padding-bottom: 100px;
+      }
     }
     .right-s {
         padding-bottom: 250px;
@@ -351,7 +374,26 @@
     }
 
     .cardsh {
-      padding-top: 100px;
+      padding-top: 10px;
+
+      .details {
+        h3 {
+          text-align: center;
+          font-size: 3rem;
+        }
+        p {
+          text-align: center;
+          font-size: 2rem;
+        }
+        h6 {
+          text-align: center;
+        }
+      }
+
+      .container img {
+        max-width: 450px;
+        margin: auto;
+      }
     }
 
     .displaynone br {
@@ -397,7 +439,7 @@
       min-height: 720px;
       min-width: 800px;
       .btncenter {
-        padding-left: 115px;
+        padding-right: 255px;
       }
     }
 
@@ -408,9 +450,6 @@
       .right {
         margin-left: 50px;
       }
-    }
-    .title-wrapper {
-      padding-right: 100px;
     }
     .banner-currency {
       p {
@@ -429,6 +468,34 @@
         font-size: 55px;
       }
     }
+
+    .apply_card {
+      width: 700px !important ;
+      overflow: hidden;
+    }
+    .section-v .container-small-l {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 3rem;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        padding-top: 30px;
+        line-height: 1;
+        margin: 0;
+        font-size: 5rem;
+      }
+      p {
+        position: relative;
+        margin: 3rem 0 0;
+        padding-bottom: 50px;
+        font-size: 2rem;
+        padding-right: 10px;
+      }
+
+    }
+
+
 }
 
         /* Medium Devices, Desktops */
@@ -540,6 +607,7 @@
       }
 
     }
+
     .section-v .slide-left {
       padding-left: 20px;
     }
