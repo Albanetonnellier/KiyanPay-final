@@ -49,4 +49,7 @@ Rails.application.routes.draw do
   get 'get-funding-for-your-startup', to: 'pages#get-funding-for-your-startup'
   get 'startups-preparing-for-the-worst', to: 'pages#startups-preparing-for-the-worst'
   get 'do-i-really-need-a-loan', to: 'pages#do-i-really-need-a-loan'
+  get 'travel-scams-to-avoid', to: 'pages#travel-scams-to-avoid'
+  get 'how-to-get-a-bargain-plane-ticket' , to: 'pages#how-to-get-a-bargain-plane-ticket'
+  get 'are-you-doing-these-essential-things' , to: 'pages#are-you-doing-these-essential-things'
 end
