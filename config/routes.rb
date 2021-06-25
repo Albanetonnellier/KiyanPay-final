@@ -52,4 +52,7 @@ Rails.application.routes.draw do
   get 'travel-scams-to-avoid', to: 'pages#travel-scams-to-avoid'
   get 'how-to-get-a-bargain-plane-ticket' , to: 'pages#how-to-get-a-bargain-plane-ticket'
   get 'are-you-doing-these-essential-things' , to: 'pages#are-you-doing-these-essential-things'
+  get 'what-is-a-negative-interest-rate', to: 'pages#what-is-a-negative-interest-rate'
+  get 'should-i-study-abroad:italy', to: 'pages#should-i-study-abroad:italy'
+  get 'what-to-look-when-hiring', to: 'pages#what-to-look-when-hiring'
 end
