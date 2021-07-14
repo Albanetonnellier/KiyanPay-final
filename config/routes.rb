@@ -41,7 +41,7 @@ Rails.application.routes.draw do
   get "blogs-small-business" , to: 'pages#blogs-small-business'
   get "blogs-travel" , to: 'pages#blogs-travel'
   get 'blogs-personal-finance', to: 'pages#blogs-personal-finance'
-  get 'blogs-all', to: 'pages#blogs-all'
+  get 'blog', to: 'pages#blog'
   get 'where-to-visit-post-covid', to: 'pages#where-to-visit-post-covid.html'
   get 'our-fees', to: 'pages#our-fees'
   get 'so-you-want-to-save', to: 'pages#so-you-want-to-save'
