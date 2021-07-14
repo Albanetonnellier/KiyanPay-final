@@ -1,0 +1,385 @@
+   <div class="navigation-wrap start-header-blog start-style">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <%=  link_to "/", class: "navbar-brand" do %>
+              <%= image_tag "KP_Logo2.png" %>
+            <% end %>
+
+    <div class="navigationbarblog">
+
+      <a rel=noopener href="/">Personal</a>
+      <a rel=noopener href="/professional">Business</a>
+      <div class="animation start-home"></div>
+    </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto py-4 py-md-0">
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                  <a rel=noopener class="nav-link" href="#"aria-expanded="false"><%= link_to"ABOUT US", about_path%></a>&nbsp &nbsp&nbsp
+                  <a rel=noopener class="nav-link" href="/blogs-all"aria-expanded="false">BLOG</a>&nbsp &nbsp&nbsp
+                  <a rel=noopener class="nav-link" href="https://support.kiyanpay.com/en/"aria-expanded="false">SUPPORT</a>
+                </li>
+              </ul>
+
+              <div class="position-btn">
+                <div class='brk-btn'><a rel=noopener href="https://gate.kiyanpay.com/signup">Sign Up</a></div>
+              </div>
+              &nbsp&nbsp <a class="greybold" href="https://gate.kiyanpay.com/login">Login</a>
+            </div>
+
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Very important to make jquery work -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<div class="allr">
+<div class="head">
+    <div class="headerobjectswrapper">
+        <div class="weatherforcastbox"><span style="font-style: italic;">Weatherforcast for the next 24 hours: Plenty of Sunshine</span><br><span>Wind: 7km/h SSE; Ther: 21°C; Hum: 82%</span></div>
+        <header>KiyanPay's post</header>
+    </div>
+
+    <div class="subhead"> <%= request.location.city %> - <%= Date.today.strftime("%a, %e %b %Y") =%> - Six Pages</div>
+</div>
+<div class="content">
+    <div class="collumns">
+
+            <div class="collumn"><div class="head"><span class="headline hl1"><a href="/money-and-mental-health">Money and mental health</a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+              <p>Most people think about money multiple times daily. Most often, these thoughts bring about worry and
+              anxiety. We want to help you turn money into a positive emotional trigger.</p>
+
+              <figure class="figure">
+                  <img class="media" src="https://media.giphy.com/media/7ViUxKwrJSjbKAaV9C/giphy.gif" alt="">
+              </figure>
+
+              <p>Step One: Recognizing The Relationship</p>
+
+              <p>There is a distinct correlation between mental health issues and monetary issues. Regardless of which
+              came first, financial matters can cause a lot of stress, resulting in a decline in both physical and mental
+              health. Mental and physical health issues can prevent us from earning money which can result in more
+              monetary worries.</p>
+
+              <div class="styling-text">
+                <a href="/money-and-mental-health">Discover the full article</a>
+              </div>
+          </div>
+
+            <div class="collumn">
+                <div class="head"><span class="headline hl3"><a href="/retire-in-portugual">How To Retire In Portugal</a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+                <p>I don't know about you, but I'm about ready to retire. And I'm dreaming of the sun and beach. If
+                you're also thinking about Portugal's warm coast, unmatched cuisine and low-cost living, but
+                you don't have to wait at least another 30 years before you can retire... then you're in the perfect place.</p>
+
+
+                <p>We've put together a step-by-step guide to retiring in Portugal.</p>
+
+                <p>First, Why Portugal?</p>
+
+                <p>1. Cheap Housing!</p>
+
+                <p>A one-bedroom city centre apartment in the UK will cost you upwards of £745 (unless you're
+                planning on going rural). In contrast, the same apartment, arguably with a better view, will only
+                set you back £510 monthly in Portugal. Our research shows that those of you looking to retire
+                are more likely to purchase a property instead to rent one, so we're pleased to let you know
+                buying a property in Portugal will cost you 50% less than one in the UK on average.</p>
+
+                <div class="styling-text">
+                  <a href="/retire-in-portugual">Discover the full article</a>
+                </div>
+            </div>
+
+            <div class="collumn"><div class="head"><span class="headline hl1"><a href="/self-employed-pensions">Self-Employed Pension</a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+              <p>You're working for yourself. You choose your hours; you don't answer to anyone, and you set your own
+              boundaries. But you also have to take care of many other things that your boss usually would have
+              done; paying taxes, choosing a pension scheme and deciding who to shout at.</p>
+
+              <figure class="figure">
+                  <img class="media" src="https://media.giphy.com/media/sj3YgUAyHYYorFyL6A/giphy.gif" alt="">
+              </figure>
+
+              <p>So, you're a big boss now, but where will you be in forty years? You're going to need a pension. And
+              we're here to help you make the best choice possible.</p>
+
+              <p>Use this article to help you make a decision on which self-employed pension option is for you.</p>
+
+              <div class="styling-text">
+                <a href="/self-employed-pensions">Discover the full article</a>
+              </div>
+          </div>
+
+            <div class="collumn">
+                <div class="head"><span class="headline hl3"><a href="/transferring-an-overseas-pension">Transferring your pension to the uk</a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+                <p>In our financial education blog, we told you that you should make sure you're saving for your pension as
+                early as possible (preferably as soon as you start working!), so we thought we would expand and share
+                some more pension tips. In this blog, we will be walking you through how to transfer an overseas
+                pension to the UK</p>
+
+
+                <p>Whether you're moving back to the UK after spending time abroad or you've been working overseas,
+                you might be able to move the pension you saved back with you! Not all pensions will have the
+                capability to be transferred; it depends mainly on the overseas pension provider and the type of pension
+                you had. You may also need to meet certain conditions, for example, most UK pension schemes will only
+                accept a pension transfer from a ROPS (Recognised Overseas Pension Scheme)</p>
+
+                <div class="styling-text">
+                  <a href="/transferring-an-overseas-pension">Discover the full article</a>
+                </div>
+            </div>
+
+
+            <div class="collumn"><div class="head"><span class="headline hl1"><a href="/is-this-website-real">is this website real </a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+              <p>You love online shopping. We love online shopping.</p>
+
+              <p>But what we love most is safe online shopping. Free of fraud and scam.</p>
+
+              <p>So, we've compiled a list of things to look out for when you're browsing the web for your newest find
+              because it shouldn't cost you more than it says on the price tag.</p>
+
+              <figure class="figure">
+                  <img class="media" src="https://media.giphy.com/media/mCJN9sj5fb2X5gxkTE/giphy.gif" alt="">
+              </figure>
+
+              <p>1. The Padlock Can Be Deceiving </p>
+
+              <p>In the good old days, it was enough for a website URL to have an SSL certificate (that's the padlock in the
+              address bar) and start with HTTPS, but that's no longer the case. Fraudsters can now obtain a lock for
+              their website within seconds, so you cannot rely on this feature alone.</p>
+
+              <div class="styling-text">
+                <a href="/is-this-website-real">Discover the full article</a>
+              </div>
+          </div>
+
+          <div class="collumn">
+            <div class="head"><span class="headline hl3"><a href="/how-to-sell-your-business">How to sell your business</a></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+            <p>You want to sell your business, and we want to help you!</p>
+
+             <p> <span class="citation">First step? Know what to ask for.</span></p>
+
+            <p>Your business means a lot to you (and us), but you're going to need an objective valuation if you want to
+            sell quickly and get a reasonable price. Over and underestimating your business's
+            value can slow down the process or make it more expensive</p>
+
+            <p>There are several ways to value your business, and it's essential to choose the one that suits your
+            situation best. You'll need to analyse your sales, profit projection, tangible assets, employees and more</p>
+
+            <div class="styling-text">
+              <a href="/how-to-sell-your-business">Discover the full article</a>
+            </div>
+        </div>
+
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Small Business Grants UK", article9_path%></span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
+        <p>Being a small business is a hard task on any given day, but it’s also really rewarding. We want to help
+        you, help your small business. So, we’ve put together a list of small business grants in the UK and how to
+        apply for them.</p></p>
+
+        <p>First things first! A grant is an amount of money that you don’t have to pay back.</p>
+
+            <p> <span class="citation"> That basically means
+            free money!</p>
+
+            <div class="styling-text">
+                <%=  link_to"Discover the full article", article9_path%>
+            </div>
+          </div>
+
+        <div class="collumn">
+            <div class="head"><span class="headline hl3"><%= link_to"Intellectual Property law", article10_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>
+            Original ideas are hard. The market is so saturated recently that there are bound to be others who are going through the same thought process as you. But who is going to make an idea big, first?</p>
+            <figure class="figure">
+                <img class="media" src="https://media.giphy.com/media/ame1y0MJNqUPC/giphy.gif" alt="">
+                <figcaption class="figcaption"></figcaption>
+            </figure><p>That’s why we want to help you learn more about trademarking and copywriting, because we’re helping
+            you develop your idea before a bigger, richer company can get there first. So, whether you want to keep
+            the cat in the bag, keep your logo unique or claim an idea that you’re not ready to act on just yet-
+            we're here to help.</p>
+            <div class="styling-text">
+                <%=   link_to"Discover the full article", article10_path%>
+            </div>
+            </p>
+        </div>
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Money Muling", article8_path%></span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
+        <p>We’ve all heard of drug muling. Some of us might even have been warned against it at a very young age.
+        But what is money muling? It’s not the obvious translation- you're not smuggling money anywhere and
+        you shouldn’t be scared of x-rays.</p></p>
+
+            <p> <span class="citation">What is Money Muling?</p>
+
+        <p>Money muling is one of the newest forms of money laundering. Criminal's transfer money to individuals
+        looking to make some quick and easy money. All the victim has to do is receive the money and transfer
+        it onto a different account, or they have to take it out of an ATM and pass it on to someone.</p>
+
+            <div class="styling-text">
+                <%=  link_to"Discover the full article", article8_path%>
+            </div>
+          </div>
+
+
+        <div class="collumn">
+            <div class="head"><span class="headline hl3"><%= link_to"Dream House, Dream Price", article7_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>
+            So, you’ve decided that you want to buy a house, congratulations! Now what?<br>
+
+            The only thing harder than buying a house recently has been buying a PS5. Both of which take time,
+            research and a lot of saving up! And, while we can’t help you with the PS5 we might have some pretty
+            useful tips on the house hunt</p>
+            <figure class="figure">
+                <img class="media" src="https://media.giphy.com/media/KzniGaxynIdqWU8N3U/giphy.gif" alt="">
+                <figcaption class="figcaption"></figcaption>
+            </figure><p>Figure Out a Budget <br> <br>
+                Whether you’re buying a house alone, with a partner or with a fellow investor you’re going to need to
+                figure out how much you can afford to spend.<br><br>
+
+            <div class="styling-text">
+                <%=   link_to"Discover the full article", article7_path%>
+            </div>
+            </p>
+        </div>
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Top Five Money Super stitions From Around The World", article6_path%></span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
+        <p>Early to bed and early to rise makes a person healthy, wealthy and wise! Or so they say...
+        Just don’t ask us who “they” is. We can’t guarantee the success rate of the recommended regime but we can assure
+        you that superstitions, practices and sayings surrounding money have been around forever!</p></p>
+
+
+            <p> <span class="citation">Turkey: Golden Dreams</p>
+
+            <div class="styling-text">
+                <%=  link_to"Discover the full article", article6_path%>
+            </div>
+          </div>
+
+        <div class="collumn">
+            <div class="head"><span class="headline hl3"><%= link_to"Stress Awareness Month", stress_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>
+            Here at KiyanPay we try to reduce as much stress for our customers as possible. Whether you’re a
+            student, a parent or a small business we want to make sure that your lives are getting easier.</p>
+            <figure class="figure">
+                <img class="media" src="https://media.giphy.com/media/26gsnT9Q1Ri4svVfO/giphy.gif" alt="">
+                <figcaption class="figcaption"></figcaption>
+            </figure><p>But it’s not always up to us... that’s why we’ve compiled a list to help you deal with and prevent stress in
+            honour of stress awareness month!<br><br>
+            P.s. we’ve seen a few articles promoting gum chewing and candle lighting. Let’s be clear... they sound
+            great but they’re probably not going to change much for you! We’re here to share some tried and tested
+            methods that are going to have you breathing deeper and smiling wider<br><br>
+
+            <div class="styling-text">
+                <%=   link_to"Discover the full article", stress_path%>
+            </div>
+            </p></div>
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Three Things We Should Have Been Taught At School: Money", article1_path%></span><p><span class="headline hl2">by Vicky Veselichka</span></p></div>
+        <p>It’s no secret that the education system is failing us in more ways than one. We leave school feeling overwhelmed and under-prepared. We’re here to fill in some gap.</p></p>
+
+            <p> <span class="citation">1. Credit Scores</span> Adult life is plagued by numbers which value us and our achievements. Our credit scores are one of the most intriguing examples. It’s a way for banks (and others) to judge us based on how well we budget and spend. In other words, they want to know how well we’ll return the money they’ll lend us</p>
+
+            <p>So, how does one get a good credit score?</p>
+
+            <div class="styling-text">
+                <%=  link_to"Discover the full article", article1_path%>
+            </div>
+          </div>
+
+        <div class="collumn">
+            <div class="head"><span class="headline hl3"><%= link_to"Best Accounting Software's for Small Businesses:", article2_path%></span><p><span class="headline hl6">by Vicky Veselichka</span></p></div>
+            We told you we want to do all the hard work and let you focus on your business and we meant it!</p>
+            <p>
+
+            <p>That’s why we’ve compiled our top picks for the best accounting softwares for small businesses. Why waste time? We’re diving in with our number 1 pick.</p>
+
+                <figure class="figure">
+                                <img class="media" src="https://media.giphy.com/media/l46CsynTA9vqxu7nO/giphy.gif" alt="">
+                        </figure>
+
+            <p>1. FreshBooks</p>
+
+            <p>We’re not alone in saying that FreshBooks is our number 1 choice for accounting software, especially for beginner accounting entrepreneurs and small business owners</p>
+
+            <p>The interface is intuitive and easy to grapple with and there is a lot of help from the customer service team to aid you in your journey of accounting discovery</p>
+
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article2_path%>
+            </div>
+
+
+        </div>
+        <div class="collumn"><div class="head"><span class="headline hl3"><%= link_to"Financial Security", article3_path%> </span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Financial security is usually defined as a feeling in control of your income and spending. In other words, you're making more than you're spending and you feel good about it!</p>
+
+        <p> <span class="citation">Why Should We Care About Financial Security?</span>
+
+        Financial security is so much more than covering expenses. It's knowing how to budget, having healthy savings and being able to sleep through the night.</p>
+
+        <p>Being financial secure removes the guilt and stress which can surround spending. Particularly during a pandemic when even national financial security was in question.</p>
+
+        <div class="styling-text">
+            <%= link_to"Discover the full article", article3_path%>
+        </div>
+
+        </div>
+
+        <div class="collumn"><div class="head"><span class="headline hl1"><%= link_to"Money Making While Sleeping", article4_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div><p>Isn't that the dream that all billionaires are selling? Passive income. </p>
+
+        <p>The thing is, passive income isn't very passive at all. It's more like do all the work at once and then sit back and wait for the benefits to role in income. The thing about the passive income that we're sold online is that it is usually risky, or involves a big investment.</p>
+
+        <figure class="figure">
+            <img class="media" src="https://media.giphy.com/media/ZE8pOE7h53wYw/giphy.gif" alt="">
+        </figure>
+
+		<p>But what if you're a student or a graduate, or you're just not earning enough to buy thousands of pounds worth of tesla stocks? </p>
+
+        <p>If you're any of the above and much more, you're in the right place. We're the people bank. And we want you, the people, to make more money.</p>
+
+        <p>Don't Earn It All At Once!</p>
+
+        <div class="styling-text">
+            <%= link_to"Discover the full article", article4_path%>
+        </div>
+
+
+        </div>
+
+        <div class="collumn">
+            <div class="head"><span class="headline hl3"><%= link_to"Scams: Staying Safe Online", article5_path%></span><p><span class="headline hl4">by Vicky Veselichka</span></p></div>
+
+            <p>Money can be pretty hard to earn, so when we do, we like to keep it to ourselves (unless we’re treating our loved ones of course!) Because it’s hard to earn a lot of people prefer to take other people’s rather than making their own.</p>
+
+             <p> <span class="citation">So how do you stay safe?</span></p>
+
+            <p>It’s not like the good ol’ days when you could just lock it all in a safe and then guard your safe day and night. Because now you keep your money online, so a lot of people might be able to access it without your knowledge.</p>
+
+            <p>Here are a few simple things that you can do to make sure your money is under your control only.</p>
+
+            <div class="styling-text">
+                <%= link_to"Discover the full article", article5_path%>
+            </div>
+        </div>
+
+
+</div>
+</div>
+
+
